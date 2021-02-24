@@ -2,7 +2,7 @@
 
 ## The Big Picture.
 In this step-by-step tutorial I show how to create a web application that recognizes your face. The model that does the heavy lifting (i.e. does the recognition, _the AI stuff_ ) is a  [fast.ai ](https://www.fast.ai/) model.
-I have been  following their great course about Neural Networks since a while. Their 600-pages book covers a lot; it is full of **practical guidance** about training models. But the model's integration with a fullstack web application is not included in the course nor in their book (as far as I know). Therefore in this post I want:
+I have been  following their great course about Neural Networks since a while. Their 600-pages book covers a lot; it is full of **practical guidance** about training models. But the model's integration with a web application is not included in the course nor in their book as far as I know (with the exception of Voila which turns Jupyter Notebooks to web pages). Therefore in this post I want:
 - to show how to create a web application that _recognizes_ your face and lets you log in based on that. 
 -  to show how to integrate a fast.ai model to a frontend framework. (React in this case)
 
