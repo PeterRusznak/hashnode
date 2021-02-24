@@ -86,7 +86,7 @@ export default App;
 ```
 
 We can now launch the application by typing `npm start`.
-Go to http://localhost:3000/.  On the left side of the screen you should see the webcam with a **Capture photo** button. By clicking on this button you create and save an image which displays what was on the webcam at the moment of the click. Go ahead and save a good 100 pictures of yourself. No kidding, we really need some pictures some pictures to train the model. Each should be a bit different from the others; turn left, right, tilt you head, close your eyes, make funny faces, etc...
+Go to http://localhost:3000/.  On the left side of the screen you should see the webcam with a **Capture photo** button. By clicking on this button you create and save an image which displays what was on the webcam at the moment of the click. Go ahead and save a good 100 pictures of yourself. No kidding, we really need some pictures some pictures to train the model. Each should be a bit different from the others; turn left, right, tilt your head, close your eyes, make funny faces, etc...
 
 ## Creating Backend
 
@@ -308,7 +308,7 @@ def call_predict():
     return res
 
 ``` 
-Our updated backend now imports the exported model when the server starts. When `call_predict()` gets called by the frontend, it converts a base64 string to an image and forwards this image to the model instance to make a prediction. We log the prediction and create and return response based on it.
+Our updated backend now imports the exported model when the server starts. When `call_predict()` gets called by the frontend, it converts a base64 string to an image and forwards this image to the model instance to make a prediction. We log the prediction and create and return a response based on it.
 
 ## Finishing touches
 
