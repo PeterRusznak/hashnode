@@ -2,7 +2,7 @@
 
 ## The Big Picture
 
-In this step-by-step tutorial we are going to create a **CRUD REST-Api Service with Frontend ** using **MySQL, Spring Boot, React Hooks** and **Docker**.
+In this step-by-step tutorial we are going to create a ** fullstack CRUD  Application ** using **MySQL, Spring Boot, React Hooks** and **Docker**.
 
 My goal is to write easy-to-follow, step-by-step and detailed guide that demonstrates the use of the above mentioned technologies by creating a basic Customer Management System. 
   
@@ -41,7 +41,7 @@ We also need to modify our frontend. The following method needs to be added to `
         return axios.post(CUSTOMER_API_BASE_URL, customer);
  }
 ```  
-The `axios.post` here corresponds to the `@PostMapping` annotation of our REST API.  
+The `axios.post` here corresponds to the `@PostMapping` annotation of our Backend.  
 We also need to create a new component. Create a new file and name it `components/CreateHook.js`
 The content should be the following:
 
@@ -124,7 +124,7 @@ export default CreateHook
 
 ```
 
-Inside `return` there is a form with three fields and a submit button. The button will call service, and service will call our REST API. 
+Inside `return` there is a form with three fields and a submit button. The button will call service, and service will call our Backend. 
 In order to use this new component, we need [Routing](https://reactrouter.com/web/guides/quick-start).
 
 Let's install it first: `npm install react-router-dom`
