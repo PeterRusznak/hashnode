@@ -2,7 +2,7 @@
 
 ## The Big Picture
 
-In this step-by-step tutorial we are going to create a fullstack CRUD Application ** using **MySQL, Spring Boot, React Hooks** and **Docker**.
+In this step-by-step tutorial we are going to create a fullstack CRUD Application  using **MySQL, Spring Boot, React Hooks** and **Docker**.
 
 My goal is to write easy-to-follow, step-by-step and detailed guide that demonstrates the use of the above mentioned technologies by creating a basic Customer Management System. 
   
