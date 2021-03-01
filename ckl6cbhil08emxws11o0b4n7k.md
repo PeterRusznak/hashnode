@@ -2,7 +2,7 @@
 
 ## The Big Picture
 
-In this step-by-step tutorial we are going to create a **CRUD REST-Api Service with Frontend ** using **MySQL, Spring Boot, React Hooks** and **Docker**.
+In this step-by-step tutorial we are going to create a fullstack CRUD Application ** using **MySQL, Spring Boot, React Hooks** and **Docker**.
 
 My goal is to write easy-to-follow, step-by-step and detailed guide that demonstrates the use of the above mentioned technologies by creating a basic Customer Management System. 
   
@@ -233,7 +233,7 @@ public interface CustomerRepository extends JpaRepository<Customer, Long>{
 
 ```
 
-Furthermore, we need a Controller class for **REST API**.  For the moment, let's keep it simple. Let's start only with fetching the data from the database and later we'll cover the rest (create, update, delete).
+Furthermore, we need a Controller class for Backend.  For the moment, let's keep it simple. Let's start only with fetching the data from the database and later we'll cover the rest (create, update, delete).
 ```java
 package whatever.you.wish.backend.controller;
 
@@ -321,7 +321,7 @@ I also installed bootstrap just to give it some basic styling.
 
 ```npm install bootstrap --save```
 
-Create a new class and name it`services/CustomerService.js`. This class will contain the axios library and  serve as a connection to our REST API. Fill it with the following content:
+Create a new class and name it`services/CustomerService.js`. This class will contain the axios library and  serve as a connection to our Backend. Fill it with the following content:
 ```javascript
 import axios from 'axios';
 
