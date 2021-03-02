@@ -362,7 +362,7 @@ function App() {
 export default App;
 ```
 
-The routing works because of this:
+The routing works only because of following part of WebcamCapture:
 
 ![routing_works.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1614692801505/0RIuCjd4Q.png)
 
