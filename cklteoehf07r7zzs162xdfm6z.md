@@ -1,4 +1,4 @@
-## The Bear Classifier (fast.ai with Angular)
+## The Bear Classifier (fast.ai meets Angular)
 
 
 ## The Big Picture
