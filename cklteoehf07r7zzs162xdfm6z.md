@@ -3,7 +3,7 @@
 
 ## The Big Picture
 
-This is a step-by-step tutorial about integrating fast.ai's famous _Bear-classifier_ with Angular.
+This is a step-by-step tutorial about integrating fast.ai's famous _Bear-classifier_ (a Neural Network model trained to do image recognition) with Angular.
 
 [Last time](https://fullstackwithpr.hashnode.dev/homemade-login-by-face-recognition-tutorial-with-fastai-flask-and-react) we called a trained fast.ai model from a web environment and now we do this again. But this tutorial is for those who prefer **Angular** over React. 
 
