@@ -366,23 +366,10 @@ The routing works only because of following part of WebcamCapture:
 
 ![routing_works.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1614692801505/0RIuCjd4Q.png)
 
-That's it. Done. Restart the application, and you'll be recognized and forwarded to `OkComponent` assuming you trained your model well. Congrats, you made it till the end and now you know how to integrate fast.ai with a web application.
+That's it. Done. Restart the application, and you'll be recognized and forwarded to `OkComponent` assuming you trained your model well. Congrats, you made it till the end and now you know how to integrate fast.ai with a web application. 
 
 
 
 
 
 
-
-
-
-
-    
-
-
-
-
-
-
-
- [Text](Link) 
