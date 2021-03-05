@@ -219,6 +219,16 @@ The function called `processFile` is the most interesting. It gets the file from
 
 ![pred.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1614771188996/nTMtWKsoP.png)
 
-The last couple of lines of `processFile` are responsible of displaying the uploaded image, too. 
+The last couple of lines of `processFile` are responsible of displaying the uploaded image:
+```javascript
+
+...
+ this.imagePath = imageInput;
+    reader.readAsDataURL(file);
+    reader.onload = (_event) => {
+      this.imageUrl = reader.result;
+    }
+ ...
+```
 
 That's it. Although in this tutorial I showed the integration of the Hello World-like Bear Classifier model, but now you know how to integrate **any** fast.ai model with Angular. Congrats!
