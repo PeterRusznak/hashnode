@@ -221,13 +221,14 @@ The function called `processFile` is the most interesting. It gets the file from
 
 The last couple of lines of `processFile` are responsible of displaying the uploaded image:
 ```javascript
-
 ...
- this.imagePath = imageInput;
-    reader.readAsDataURL(file);
-    reader.onload = (_event) => {
-      this.imageUrl = reader.result;
-    }
+
+this.imagePath = imageInput;
+reader.readAsDataURL(file);
+reader.onload = (_event) => {
+    this.imageUrl = reader.result;
+}
+
  ...
 ```
 
