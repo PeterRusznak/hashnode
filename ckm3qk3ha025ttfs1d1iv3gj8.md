@@ -431,7 +431,3 @@ export default ConwaysGridComponent;
 The rules of the game are enforced by the `checkRules()` function. Whenever the user clicks on the **Start Playing** button the old grid gets replaced by a new one calculated based on the rules. The function which is responsible for this is also called `startPlaying`.
 
 With this, we are at the end of this tutorial. Congrats. Now you know how to create and deploy a smart contract and how to get a random number in blockchain environment as well as how to turn it into something fun. 
- 
-
- 
- [Text](Link) 
