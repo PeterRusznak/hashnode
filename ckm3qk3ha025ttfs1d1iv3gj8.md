@@ -72,6 +72,10 @@ You'll also need you Metamask- mnemonic. If you are like me and have already for
 ![metamask.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1615376122532/rYHg-2nz4.png)
 Click on the circle above then click on `Settings` then click on `Security and Privacy` and then click on `Reveal Seed Phrase`.
 
+
+%[https://www.youtube.com/watch?v=76y4STtivcY]
+
+
 Create a file named `Game.sol` inside the `contracts` folder with the following content:
 ```
 pragma solidity 0.6.6;
@@ -131,23 +135,24 @@ function App() {
     }
   };
 
-  const loadBlockchainData = async () => {
+const loadBlockchainData = async () => {
     const web3 = window.web3
     const networkId = await web3.eth.net.getId()
     if (networkId !== 4) {
       window.alert('Please switch network to the Rinkeby and refresh the page')
     }
-    const contract_address = '0x32F46b5fdd6bEb553E2C1Df2E17400D208da2359';
-    const deployedContract = new web3.eth.Contract(Game.abi, contract_address);
-    setGameContract(deployedContract);
-    const accounts = await web3.eth.getAccounts();
-    setAccount(accounts[0])
-    const bal = await web3.eth.getBalance(accounts[0]);
-    setBalance(bal);
-
-    deployedContract.methods.name().call(function (err, res) {
-      setName(res)
-    });
+    const networkData = Game.networks[networkId];
+    if (networkData) {
+      const contract_address = networkData.address;   
+      const deployedContract = new web3.eth.Contract(Game.abi, contract_address);
+      setGameContract(deployedContract);
+      const accounts = await web3.eth.getAccounts();
+      setAccount(accounts[0])
+      const bal = await web3.eth.getBalance(accounts[0]);
+      setBalance(bal);
+    } else {
+      alert("Wrong NETWORK")
+    }
   }
 
   useEffect(() => {
@@ -181,8 +186,6 @@ useEffect(() => {
 ```
  The `loadWeb3` is just a copy-past from Metamask, it checks whether our browser is compatible and if it's not the case it recommends using  [Metamask](https://metamask.io/). 
 The `loadBlockchainData` checks the network (Rinkeby in this case), establishes the connection to the deployed contracts, and fills the `useState` hooks.
-Note that the `contract_address` needs to correspond to the address of the deployed contract.
-![addri.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1615389456321/SKP2gQrSz.png)
 
 ## Getting a Random Number
 
@@ -241,8 +244,7 @@ contract Game is VRFConsumerBase {
 
 Basically I got this contract from their website and modified it to use Rinkeby instead of Kovan.
 
-Recompile and redeploy the contract. Adjust contract address in `App.js` according the following screenshot:
-![contract_address.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1615390503367/EayJpdQzC.png)
+Recompile and redeploy the contract.
 
 In order to be able to use Chainlink's services we need their Link Tokens. Go to their  [faucet](https://rinkeby.chain.link/) and send tokens to your account. After that send some tokens from your address to the address of the deployed contract (the contract will call chainlink, after all).
 
