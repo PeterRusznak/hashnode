@@ -76,7 +76,8 @@ Click on the circle above then click on `Settings` then click on `Security and P
 %[https://www.youtube.com/watch?v=76y4STtivcY]
 
 
-Create a file named `Game.sol` inside the `contracts` folder with the following content:
+
+Now it's time to create a contract. Create a file named `Game.sol` inside the `contracts` folder with the following content:
 ```
 pragma solidity 0.6.6;
 
