@@ -2,7 +2,7 @@
 
 ## The Big Picture
 
-NFT-s are all over the news that's why I decided to write a step-by-step tutorial which shows how to make and deploy one. My idea is to create a React Canvas component where  _artists_ (whoever who feels their artistic vein) can scribble whatever they wish and save the resulting image on [IPFS](https://ipfs.io/). Based on this image we _mint_ (create) an NFT and make it available on OpenSea.
+NFT-s are all over the news, that's why I decided to write a step-by-step tutorial which shows how to make and deploy one. My idea is to create a React Canvas component where  _artists_ (whoever who feels their artistic vein) can scribble whatever they wish and save the resulting image on [IPFS](https://ipfs.io/). Based on this image we _mint_ (create) an NFT and make it available on OpenSea.
 
 Here is a short demo:
 
