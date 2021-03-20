@@ -16,7 +16,7 @@ The full code is available on  [Github](https://github.com/PeterRusznak/scribble
 - npm: 6.14.10
 - Truffle: v5.1.59 
 
-##  Creating and deploying the first smart contract
+##  Creating and deploying the smart contract
 
 There is nothing new here. As usual execute the following command: `npx create-react-app nft` to create frontend application with the name of `nft`. Enter the `nft` folder and type `truffle init` which gives us everything we need to work with smart contracts. We will need a bunch of dependencies later 
 
