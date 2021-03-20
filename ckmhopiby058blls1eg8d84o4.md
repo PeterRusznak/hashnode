@@ -1,4 +1,4 @@
-## Scribble on Canvas and sell it as NFT.  (React, Truffle, IPFS, OpenSea)
+## Scribble on Canvas and sell it as NFT (React, Truffle, IPFS, OpenSea)
 
 ## The Big Picture
 
