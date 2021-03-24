@@ -155,7 +155,11 @@ In App.js  I use the standard `loadWeb3`
     }
   };
 ```
-and `loadBlockChainData`
+We need an _abi_ and an address to interact with any smart contract:
+```javascript
+ const contract = new web3.eth.Contract(DrawingCollectible.abi, contract_address);
+```
+this is included in `loadBlockChainData` along with checking the network:
 
 ```javascript
 const loadBlockchainData = async () => {
