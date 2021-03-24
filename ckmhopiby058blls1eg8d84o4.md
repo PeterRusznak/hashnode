@@ -188,7 +188,7 @@ const loadBlockchainData = async () => {
     }
   }
 ```
-functions to connect to the deployed Contract. I call these functions from `useEffect` which is just a modern way to say componentDidMount(). It runs only once when the component gets created. 
+I call these functions from `useEffect` which is just a modern way to say componentDidMount(). It runs only once when the component gets created. 
 
 ```javascript
  useEffect(() => {
