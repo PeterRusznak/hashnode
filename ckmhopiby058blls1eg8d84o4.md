@@ -159,7 +159,7 @@ We need an _abi_ and an address to interact with any smart contract:
 ```javascript
  const contract = new web3.eth.Contract(DrawingCollectible.abi, contract_address);
 ```
-this is included in `loadBlockChainData` along with checking the network:
+This is included in the`loadBlockChainData()` function. The function also contains a check for the correct network (Rinkeby in this case) and setting the relevant `useState` hooks (deployedContract, account, balance, name, symbol). Below is the full function:
 
 ```javascript
 const loadBlockchainData = async () => {
