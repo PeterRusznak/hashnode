@@ -200,6 +200,7 @@ The `loadBlockchainData` checks the network (Rinkeby in this case), establishes 
 
 In the world of blockchain everything is highly deterministic so getting a random number is tricky.
 That's why we need to use   [Chainlink](https://chain.link/)  here. 
+Chainlink, a decentralized oracle network, was developed to allow smart contracts to automate the transfer of data between blockchains and outside systems in a highly secure and reliable manner. It uses a similar model to a blockchain in that there is a decentralized network of independent entities (oracles) that collectively retrieve data from multiple sources, aggregate it, and deliver a validated, single data point to the smart contract to trigger its execution, removing any centralized point of failure. Chainlink provides a randomness solution called VRF, which generates randomness and delivers it to the smart contract in a manner where users can prove it is fair and unbiased, as neither the players, game creators, or external entities can tamper with or manipulate the randomness to their advantage.
 
 Replace `Game.sol` with the following:
 ```
