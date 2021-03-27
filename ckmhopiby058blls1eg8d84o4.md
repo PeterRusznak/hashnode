@@ -33,8 +33,6 @@ We will need a bunch of dependencies later:
 
 ```javascript
   "@openzeppelin/contracts": "^3.4.1",
-  "babel-polyfill": "^6.26.0",
-  "babel-register": "^6.26.0",
   "ipfs-api": "^26.1.2",
   "ipfs-http-client": "^49.0.4",
   "react-canvas-draw": "^1.1.1",
@@ -46,8 +44,6 @@ We will need a bunch of dependencies later:
 so add them to `package.json` and hit `npm install`. After that you can replace the content of `truffle-config.js` with the following:
 
 ```javascript
-require('babel-register');
-require('babel-polyfill');
 var HDWalletProvider = require("truffle-hdwallet-provider");
 
 const mnemonic = "apple orange banana.... here comes your Metamask mnemonic ";
