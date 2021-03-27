@@ -30,8 +30,6 @@ Make a directory and name it `game_of_life`. Inside it execute the following com
 We will need a bunch of dependencies later
 ```json
     "@chainlink/contracts": "^0.1.6",
-    "babel-polyfill": "^6.26.0",
-    "babel-register": "^6.26.0",
     "truffle": "^5.2.3",
     "truffle-hdwallet-provider": "^1.0.17",
     "web3": "^1.3.4",
@@ -40,8 +38,6 @@ We will need a bunch of dependencies later
 so add them to `package.json` and hit `npm install`. After that you can replace the content of `truffle-config.js` with the following:
 
 ```javascript
-require('babel-register');
-require('babel-polyfill');
 var HDWalletProvider = require("truffle-hdwallet-provider");
 
 const mnemonic = "apple orange banana.... here comes your Metamask mnemonic ";
