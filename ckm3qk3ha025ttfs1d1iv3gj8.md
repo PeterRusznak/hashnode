@@ -67,11 +67,11 @@ module.exports = {
   }
 }
 ```
- [Infura](https://infura.io/)  enables anyone to use the Ethereum Network without installing and maintaining an Ethereum node. Register on their website and create a project like this:
+As you can see, the HDWalletProvider needs [Infura](https://infura.io/). Infura is a company and they enable anyone to use the Ethereum Network without installing and maintaining an Ethereum node. Register on their website and create a project like this:
 
 ![infura.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1615375824338/W4WJKa-MY.png)
 
-You'll also need you Metamask- mnemonic. If you are like me and have already forgotten them long time ago here is where you can find them:
+The HDWalletProvider also needs access to your Metamask, that's why you need to provide your Metamask-mnemonic.If you are like me and have already forgotten them long time ago here is where you can find them:
 
 ![metamask.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1615376122532/rYHg-2nz4.png)
 Click on the circle above then click on `Settings` then click on `Security and Privacy` and then click on `Reveal Seed Phrase`.
