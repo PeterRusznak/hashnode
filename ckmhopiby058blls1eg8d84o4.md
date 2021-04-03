@@ -84,7 +84,9 @@ Click on the circle above then click on `Settings` then click on `Security and P
 
 %[https://www.youtube.com/watch?v=76y4STtivcY]
 
-Now it's time to create a contract. Create a file named `DrawingCollectible.sol` inside the `contracts` folder with the following content:
+Now it's time to create a contract. The language for smart contracts is  [solidity](https://solidity-by-example.org/). I believe that anyone with some javascript or maybe java knowledge can decipher the meaning of a simple contract. I am not saying that solidity _is_ java or javascript but I do say that if you have some years of javascript experience the transition to solidity should not be super bumpy.
+
+Create a file named `DrawingCollectible.sol` inside the `contracts` folder with the following content:
 ```
 pragma solidity 0.6.6;
 
