@@ -54,9 +54,10 @@ module.exports = {
 
 ## Creating the Smart Contracts
 
-Start by creating a new directory called `contracts` and create a file inside the directory called `Instaclone.sol`.
+Start by creating a new directory called `contracts` and create a file inside the directory called `Instaclone.sol`. The language for smart contracts is  [solidity](https://solidity-by-example.org/).
+I believe that anyone with some javascript or maybe java knowledge can decipher the meaning of a simple contract. I am not saying that solidity _is_ java or javascript but I do say that if you have some years of javascript experience the transition to solidity should not be super bumpy.
 
-The file content should be the following:
+The file's content should be the following:
 
 ```
 pragma solidity ^0.7.0;
