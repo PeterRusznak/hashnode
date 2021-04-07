@@ -2,7 +2,7 @@
 
 ## The Big Picture
 
-NFT-s are all over the news, that's why I decided to write a step-by-step tutorial which shows how to make and deploy one. My idea is to create a React Canvas component where  _artists_ (whoever who feels their artistic vein) can scribble whatever they wish and save the resulting image on [IPFS](https://ipfs.io/). Based on this image we _mint_ (create) an NFT and make it available on OpenSea.
+NFT-s are all over the news, that's why I decided to write a step-by-step tutorial which shows how to make and deploy one. My idea is to create a React Canvas component where  _artists_ (whoever who feels their artistic vein) can scribble whatever they wish and save the resulting image on [IPFS](https://ipfs.io/). Based on this image we _mint_ (create) a Non Fungible Token (an ERC721 Token) using an Ethereum smart contract and make it available on OpenSea. For financial reasons we use the Rinkeby Test Network instead of Ethereum Mainnet.
 
 Here is a short demo:
 
@@ -114,7 +114,7 @@ contract DrawingCollectible is ERC721, Ownable {
 }
 ```
 
-A couple of things here: in order to make our contract to comply with the NFT standards it needs to implement OpenZeppelin's  [ERC271](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/token/ERC721) implementation. The constructor takes two arguments: the first one is the _name_, the second one is the _symbol_. These values are visible on OpenSea, Metamask, etc.
+A couple of things here: in order to make our contract to comply with the NFT standards it needs to implement OpenZeppelin's  [ERC721](https://github.com/OpenZeppelin/openzeppelin-contracts/tree/master/contracts/token/ERC721) implementation. The constructor takes two arguments: the first one is the _name_, the second one is the _symbol_. These values are visible on OpenSea, Metamask, etc.
 
 ![symbol.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1616235235598/jXPrr17uC.png)
 
