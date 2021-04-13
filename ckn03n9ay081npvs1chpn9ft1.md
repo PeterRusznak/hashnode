@@ -20,7 +20,7 @@ The full code is available on  [Github](https://github.com/PeterRusznak/instaclo
 * node: v14.15.4
 * npm: 6.14.10
 
-## Installing dependencies.
+## Installing dependencies
 
 As usual, execute the following command: npx create-react-app instaclone to create React frontend application with the name of instaclone. We'll use  [Hardhat](https://hardhat.org/) to compile and deploy our contract, so install into your project folder, (i.e. _instaclone_):
 
