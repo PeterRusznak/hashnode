@@ -304,7 +304,7 @@ To be able to import json files we need to add following lines to `tsconfig.json
     "esModuleInterop": true,
   },
 ```
-We can access the smart contracts as follows. In `app.component.ts` we add the following imports and the contract addressess:
+We can access the smart contracts as follows. In `app.component.ts` we add the following imports and the contract addresses:
 
 ```javascript
 import { Component } from '@angular/core';
@@ -408,7 +408,7 @@ const ITEMS = [
   },
 ]
 ```
-Never mind the that we pay by DAI but use "parseEther". It just gives the necessary zeroes after the value which are the same when using DAI or ether. 
+Never mind that we pay by DAI but use "parseEther". It just gives the necessary zeroes after the value which are the same when using DAI or ether. 
 
 Now add the `buy` function which calls the service to `app.component.ts`:
 ```typescript
