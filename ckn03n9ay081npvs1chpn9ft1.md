@@ -600,7 +600,7 @@ const Renderer = ({ images, uploadImage, captureFile, tipImageOwner }) => {
 export default Renderer
 ```
 
-That's it. Congratulation. You made it till the end.
+That's it. Congratulation. You have reached the end.
 
 
 
