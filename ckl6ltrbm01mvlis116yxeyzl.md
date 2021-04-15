@@ -4,7 +4,7 @@
 
 In this step-by-step tutorial we are going to create a ** fullstack CRUD  Application ** using **MySQL, Spring Boot, React Hooks** and **Docker**.
 
-My goal is to write easy-to-follow, step-by-step and detailed guide that demonstrates the use of the above mentioned technologies by creating a basic Customer Management System. 
+My goal is to write an easy-to-follow, step-by-step and detailed guide that demonstrates the use of the above mentioned technologies by creating a basic Customer Management System. 
   
 There's quite a bit of coding and configuration ahead of us that's why I will confine myself to the essentials which will be explained  through code examples and screenshots. Let me tell you at the very beginning that we are not going to create therefore a *pretty*  application; no fancy CSS styling or Footer, Header or anything similar. (The only exception is the minimal use of [Bootstrap](https://getbootstrap.com/)) 
 
