@@ -18,7 +18,7 @@ Once you understand the very basics like hashing, gas, addresses, contracts, etc
 On Ethereum the language for smart contracts is [solidity](https://docs.soliditylang.org/). At the first glance it resembles javascript. You can learn solidity on [this interactive site](https://cryptozombies.io/). I learned solidity by going through this interactive tutorial. I even built an oracle. But whenever I need a 
 reference or an example https://solidity-by-example.org/ is my first place to visit.
 
-As for tools I can recommend Hardhat. They have a cool, up-to-date [tutorial](https://hardhat.org/tutorial/). Other developers prefer Truffle. They also have great [tutorials](https://www.trufflesuite.com/tutorials).
+As for tools, I can recommend Hardhat. They have a cool, up-to-date [tutorial](https://hardhat.org/tutorial/). Other developers prefer Truffle. They also have great [tutorials](https://www.trufflesuite.com/tutorials).
 
 As you progress on your blockchain-journey sooner or later you'll bump into the [oracle
 problem](https://blog.chain.link/what-is-the-blockchain-oracle-problem/). You will realize that smart contracts can not access data from the outside world through `http request` as almost any other application can. Instead, smart contracts pull data through something called an [oracle](https://medium.com/@teexofficial/what-are-oracles-smart-contracts-the-oracle-problem-911f16821b53). This will lead you to chain.link. [Here](https://docs.chain.link/docs?_ga=2.29853180.2106070822.1618745119-351727.1615024782) is the best place to start.
@@ -39,7 +39,7 @@ They are the next step of the blockchain evolution. [Dfinity's Internet Computer
 
 ### IPFS
 
-The [InterPlanetary File System (IPFS)](https://ipfs.io/) is not a blockchain. It is a protocol and peer-to-peer network for storing and sharing data in a distributed file system. But it is perfectly [works together with Ethereum](https://medium.com/@austin_48503/tl-dr-scaffold-eth-ipfs-20fa35b11c35) to store large amount of data when storing it otherwise would be either cost-prohibitive or not decentralized.  
+The [InterPlanetary File System (IPFS)](https://ipfs.io/) is not a blockchain. It is a protocol and peer-to-peer network for storing and sharing data in a distributed file system. But it perfectly [works together with Ethereum](https://medium.com/@austin_48503/tl-dr-scaffold-eth-ipfs-20fa35b11c35) to store large amount of data when storing it otherwise would be either cost-prohibitive or not decentralized.  
 I also wrote [this](https://fullstackwithpr.hashnode.dev/scribble-on-canvas-and-sell-it-as-nft-react-truffle-ipfs-opensea) and [this](https://fullstackwithpr.hashnode.dev/decentralized-censorship-resistant-instagram-clone-tutorial-ethereum-hardhat-ethersjs-ipfs-react) tutorials which stored data on IPFS.
 
 
