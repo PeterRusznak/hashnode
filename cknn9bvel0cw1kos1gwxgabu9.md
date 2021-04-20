@@ -30,7 +30,7 @@ Finally I would like to mention another interesting youtube channel, [EatTheBloc
 ### Hyperledger
 
 As blockchains are moving more and more to the direction of being the dominant form of digital agreement I expect more and more companies to set up their own personalized and private blockchains. 
-[Hyperledger](https://www.hyperledger.org/learn) itself is not a blockchain, nor a cryptocurrency. It is a software, a project within the Linux foundation to create one's own personalized, private blockchain service.The good news is that you don't have to learn a new language as it is available in `java`, `javascript` and `go`. The best place to start is [here](
+[Hyperledger](https://www.hyperledger.org/learn) itself is not a blockchain, nor a cryptocurrency. It is a software, a project within the Linux foundation to advance cross-industry blockchain technologies. [Hyperledger Fabric](https://hyperledger-fabric.readthedocs.io/en/release-2.2/key_concepts.html) is one of the blockchain projects within Hyperledger to create one's own personalized, private and permissioned blockchain service. Like any other blockchain technologies, it has a ledger, uses smart contracts, and is a system by which participants manage their transactions. The good news is that you don't have to learn a new language as it is available in `java`, `javascript` and `go`. The best place to start is [here](https://hyperledger-fabric.readthedocs.io/en/release-2.2/key_concepts.html) and [here](
 https://hyperledger-fabric.readthedocs.io/en/release-2.2/getting_started.html). They are also present on [youtube](https://www.youtube.com/channel/UC7_X0WkMtkWzaVUKF-PRBNQ). 
 
 ### Internet Computer
