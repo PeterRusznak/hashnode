@@ -3,7 +3,7 @@
 ## The Big Picture
 
 In this step-by-step tutorial I create a simple CRUD Application (a very simple Customer Management System). But before we get to the coding part, let me tell you that I strongly believe that the underlying technology is truly remarkable. 
-Dfinity's  [Internet Computer](https://dfinity.org/) is the next step of blockchain evolution. This Switzerland-based non-profit organization promises nothing less than the complete redesign of the entire internet and the way how developers write and deploy software. It worth's repeating: they promise us a blockchain-based public network that can be used as a 
+Dfinity's  [Internet Computer](https://dfinity.org/) is the next step of blockchain evolution. This Switzerland-based non-profit organization promises nothing less than the complete redesign of the entire internet and the way how developers write and deploy software. It's worth repeating: they promise us a blockchain-based public network that can be used as a 
 ### **complete replacement for today’s legacy IT stack**
 including Big Tech’s cloud services, and legacy infrastructure software such as file systems, web servers, middleware, and databases. No more databases. No more firewalls. The Internet Computer’s serverless architecture allows the internet to natively host software and services, eliminating — claims Dfinity — the need for proprietary cloud services. No more third-party cloud providers like AWS or Google Cloud. No more virtual monopolies like Facebook, LinkedIn, Instagram and WhatsApp. No more  [platform risk](https://blog.simeonov.com/2013/03/05/platform-risk-anti-pattern/). 
 
