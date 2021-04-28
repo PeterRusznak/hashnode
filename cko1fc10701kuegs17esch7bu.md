@@ -1,4 +1,4 @@
-## Unhackable CRUD Application Tutorial. Ditch the complete legacy IT Stack with Dfinity's Internet Computer.
+## Unhackable CRUD Application Tutorial. Ditch the complete legacy IT Stack with Dfinity's Internet Computer
 
 ## The Big Picture
 
@@ -75,7 +75,7 @@ The generated code greets you with a popup. Try it out.
 
 ## Using React
 
-Let's _reactify_ the frontend. Append the list of `devDependencies` with `css-loader` and add dependencies to package.json like below:
+Let's _reactify_ the frontend. Append the list of `devDependencies` with `css-loader` and add `dependencies` to `package.json` like below:
 
 ```json
  "devDependencies": {
