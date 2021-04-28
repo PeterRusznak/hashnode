@@ -12,7 +12,7 @@ But, one might object, blockchain is so slow and expensive... However Internet C
 Too good to be true? We shall see. I definitely root for them. 
 
 This tutorial's code is available on [Github](https://github.com/PeterRusznak/Internet_Computer_CRUD_example).
-Special thanks to **enzoh** whose [repository](https://github.com/enzoh/superheroes) was quite useful doing my baby steps on the rough terrain of [motoko](https://sdk.dfinity.org/docs/language-guide/motoko.html).  
+Special thanks to **enzoh** whose [repository](https://github.com/enzoh/superheroes) was quite helpful when I did my baby steps on the rough terrain of [motoko](https://sdk.dfinity.org/docs/language-guide/motoko.html).  
 
 ## Software versions
 
