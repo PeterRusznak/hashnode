@@ -7,9 +7,9 @@ Dfinity's  [Internet Computer](https://dfinity.org/) is the next step of blockch
 ### **complete replacement for today’s legacy IT stack**
 including Big Tech’s cloud services, and legacy infrastructure software such as file systems, web servers, middleware, and databases. No more databases. No more firewalls. The Internet Computer’s serverless architecture allows the internet to natively host software and services, eliminating — claims Dfinity — the need for proprietary cloud services. No more third-party cloud providers like AWS or Google Cloud. No more virtual monopolies like Facebook, LinkedIn, Instagram and WhatsApp. No more  [platform risk](https://blog.simeonov.com/2013/03/05/platform-risk-anti-pattern/). 
 
-But, one might object, blockchain is so slow and expensive... However Internet Computer runs at web's speed. It also has unbounded capacity. Visitors of the page don't need to install Metamask or any other wallet. They can access the application the same way as any other website (i.e. there is no gas fee for them). And the application is unhackable by design.
+But, one might object, blockchain is so slow and expensive... However Internet Computer runs at web's speed. It also has unbounded capacity. Visitors of the page don't need to install Metamask or any other wallet. They can access the application the same way as any other website (i.e. there is no gas fee for them). And  because the application is based on blockchain it is tamper-proof and unhackable by design.
 
-Too good to be true? We shall see. I will definitely keep an eye on their platform rooting for them. 
+Too good to be true? We shall see. I definitely root for them. 
 
 This tutorial's code is available on [Github](https://github.com/PeterRusznak/Internet_Computer_CRUD_example).
 Special thanks to **enzoh** whose [repository](https://github.com/enzoh/superheroes) was quite useful doing my baby steps on the rough terrain of [motoko](https://sdk.dfinity.org/docs/language-guide/motoko.html).  
