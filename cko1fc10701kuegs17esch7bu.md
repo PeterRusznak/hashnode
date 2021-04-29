@@ -43,7 +43,7 @@ It should be `0.6.26`
 
 ## Creating Canisters
 
-Canister is a software unit that contains both code and state. The reason canisters are called “canisters” rather than “smart contracts” is that they are in fact bundles of code and state. State is persisted naturally by the system therefore no need of databases and you just declare a datastructure as you need it. Under the hood of a canister, there is smart contract logic in the form of WebAssembly byte code.
+Canister is a software unit that contains both code and state. Under the hood of a canister, there is smart contract logic in the form of WebAssembly byte code. The reason canisters are called “canisters” rather than “smart contracts” is that they are in fact bundles of code and state. State is persisted naturally by the system therefore no need of databases and you just declare a datastructure as you need it. Internet Computer implements _orthogonal persistence_ —an old idea where a program has the illusion of running “forever” and its memory staying alive (at least until it is explicitly taken down). This means that developers do not have to worry about explicitly saving their data or bother with files or an external database: whatever values or data structures are stored in program variables will still be there when the next message arrives, even if that is months later. 
 
 Let's create a new project. Open a terminal and type:
 ```
