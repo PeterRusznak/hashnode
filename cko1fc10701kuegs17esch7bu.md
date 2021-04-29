@@ -554,18 +554,4 @@ Build and reinstall as usual. The application should run like this:
 
 
 
-That's it. Congratulation. Now you also made your baby steps in the fascinating world of tomorrow's Internet.
-
-
-
-
-  
-
-
-
-
-
-
-
-
-`
+That's it. Congratulation. Now you also made your baby steps in the fascinating world of tomorrow's Internet. 
