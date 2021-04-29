@@ -2,7 +2,7 @@
 
 ## The Big Picture
 
-In this step-by-step tutorial I create a simple CRUD Application (a very simple Customer Management System). But before we get to the coding part, let me tell you that I strongly believe that the underlying technology is truly remarkable. 
+In this step-by-step tutorial I create a simple CRUD Application, a very simple Customer Management System. I strongly believe that the underlying technology is truly remarkable. 
 Dfinity's  [Internet Computer](https://dfinity.org/) is the next step of blockchain evolution. This Switzerland-based non-profit organization promises nothing less than the complete redesign of the entire internet and the way how developers write and deploy software. It's worth repeating: they promise us a blockchain-based public network that can be used as a 
 ### **complete replacement for today’s legacy IT stack**
 including Big Tech’s cloud services, and legacy infrastructure software such as file systems, web servers, middleware, and databases. No more databases. No more firewalls. The Internet Computer’s serverless architecture allows the internet to natively host software and services, eliminating — claims Dfinity — the need for proprietary cloud services. No more third-party cloud providers like AWS or Google Cloud. No more virtual monopolies like Facebook, LinkedIn, Instagram and WhatsApp. No more  [platform risk](https://blog.simeonov.com/2013/03/05/platform-risk-anti-pattern/). 
@@ -24,7 +24,7 @@ Special thanks to **enzoh** whose [repository](https://github.com/enzoh/superher
 ## Installing dfx
 
 `dfx` is the command line tool to intereact with Internet Computer.
-Create a variable like below. Use the same version as anything beyond `0.7.0-beta` requires different approch. 
+Create a variable like below. Use the same version because anything beyond `0.7.0-beta` requires different approch!
 ```
 export DFX_VERSION=0.6.26
 ```
@@ -49,7 +49,7 @@ Let's create a new project. Open a terminal and type:
 ```
  dfx new crud
  ```
-Enter the freshly created `crud` directory (root directory) and start the network there:
+Enter the freshly created `crud` directory (our root directory) and start the network there:
 ```
 dfx start --clean
 ```
@@ -67,11 +67,12 @@ and install them:
 ```
 dfx canister install --all
 ```
-Copy the canister id for `crud_assets`. For me it is `ryjl3-tyaaa-aaaaa-aaaba-cai`. You can access the application using the assets' canister id in any browser. 
+The generated canister id-s are located in `.dfx/local/canister_ids.json`.
+Copy the canister id for `crud_assets`.  For me it is `ryjl3-tyaaa-aaaaa-aaaba-cai`. You can access the application using the assets' canister id in any browser like this:
 ```
  http://127.0.0.1:8000/?canisterId=ryjl3-tyaaa-aaaaa-aaaba-cai
 ``` 
-The generated code greets you with a popup. Try it out.
+The application's generated code greets you with a popup. Try it out.
 
 ## Using React
 
@@ -244,8 +245,10 @@ actor Assistant {
     };
 };
 ```
+We create an `actor` to contain our logic. It has a public function `addCustomer`. It is public,  therefore we can call it from the frontend canister. This function adds (i.e. _saves_) an entry to <s>the database</s> the underlying datastructure which is a `Trie<Id, Customer>`.
 
-There is one issue here: the best datastructure to store the customers and to lookup one individual customer by id is the `Trie<Id, Customer>` where the key is an `id` and the value is the `Customer`. However the use of Trie proved difficult when I wanted to display all the customers on the frontend.  That's why I decided to convert (i.e. _flatten_) the `Trie<Id, Customer>` to an array of `CustomerWithId`. But I am new to motoko, and there is probably a better way to do it. Leave me a comment if you know a better solution.   
+The other public function queries our <s>database</s> persisting datastructure.
+However there is one issue here; the best datastructure to store the customers and to lookup one individual customer by id is the `Trie<Id, Customer>` where the key is an `id` and the value is the `Customer`. Unfortunately the use of Trie proved difficult when I wanted to display all the customers on the frontend.  That's why I decided to convert (i.e. _flatten_) the `Trie<Id, Customer>` to an array of `CustomerWithId`. But I am new to motoko, and there is probably a better way to do it. Leave me a comment if you know a better solution.   
 
 ### Frontend
 
@@ -487,13 +490,19 @@ import { fromOptional, toOptional } from './helper';
         });
     }, []);
 ```
-That means if the `id` is `-1` we are just about to create a new Customer entry therefore there is nothing to fetch from backend. However if the entry is not `-1` we need to call the backend for the old values to pre-fill the input fields. This is also the place to set the title of the page. For this we need to add the followings to the top of the div:
+The value of `id` is passed in the `props`:
+```
+const Create = (props) => {
+    const id = props.match.params.id;
+...
+```
+The `id` can be a positive number or `-1`.  If the `id` is `-1` we are just about to create a new Customer entry therefore there is nothing to fetch from backend. However if `id` is a positive number (i.e. a real id of an existing Customer) we need to call the backend for the old values to pre-fill the input fields. This is also the place to set the title of the page. For this we need to add the followings to the top of the div:
 ```javascript
  return (
         <div>
             <h2 className="text-center">{pageTitle}</h2>
 ``` 
-To accomodate our changes the `saveOrUpdate` function needs to be replaced:
+To accomodate our changes the `saveOrUpdate` function needs to be updated to this:
  
 ```javascript
     const saveOrUpdate = (event) => {
@@ -518,9 +527,9 @@ To accomodate our changes the `saveOrUpdate` function needs to be replaced:
         }
     }
 ```
-Again, everything depends on the id. If the id is `<0` (i.e. -1) we call the function which creates a new entry. Otherwise we call the update function.
+Again, everything depends on the id. If the id is `<0` (i.e. `-1`) we call the function which creates a new entry. Otherwise we call the update function.
 
-Whether the `id` is -1 or not is decided in `Display.js`. If we edit an existing one we just forward its `id` like this. Add the following Snippet to `Display.js`:
+Whether the `id` is `-1` or not is decided in `Display.js`. If we edit an existing one we just forward its `id` like this. Add the following Snippet to `Display.js`:
 ```javascript
    const editCustomer = ((id) => {
         props.history.push(`/add/${id}`);
@@ -545,7 +554,7 @@ Build and reinstall as usual. The application should run like this:
 
 
 
-That's it. Congratulation. You made your baby steps in the fascinating world of tomorrow's Internet.
+That's it. Congratulation. Now you also made your baby steps in the fascinating world of tomorrow's Internet.
 
 
 
