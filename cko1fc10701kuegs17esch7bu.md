@@ -186,7 +186,6 @@ import Nat "mo:base/Nat";
 import Option "mo:base/Option";
 import Trie "mo:base/Trie";
 
-// Define the actor, to me it resembles a class in other languages 
 actor Assistant {
     public type Id = Word32;
     private stable var next : Id = 0;
@@ -245,7 +244,15 @@ actor Assistant {
     };
 };
 ```
-We create an `actor` to contain our logic. It has a public function `addCustomer`. It is public,  therefore we can call it from the frontend canister. This function adds (i.e. _saves_) an entry to <s>the database</s> the underlying datastructure which is a `Trie<Id, Customer>`.
+We create an `actor` to contain our logic. To me an actor resembles a class. But it is not a class rather _ " is like an object (and in Motoko, even looks like one), 
+in that it encapsulates private state along with a set of methods to process 
+messages that can be sent to it. But all message sends are asynchronous. 
+Consequently, unlike conventional methods in OO, actor methods do not have results.
+ Moreover, all messages are received sequentially by an actor—that is, 
+ it has an implicit message queue and methods execute atomically,
+  even when messages are sent concurrently" (Andreas Rossberg)_ 
+
+Our actor has a public function `addCustomer`. It is public,  therefore we can call it from the frontend canister. This function adds (i.e. _saves_) an entry to <s>the database</s> the underlying datastructure which is a `Trie<Id, Customer>`.
 
 The other public function queries our <s>database</s> persisting datastructure.
 However there is one issue here; the best datastructure to store the customers and to lookup one individual customer by id is the `Trie<Id, Customer>` where the key is an `id` and the value is the `Customer`. Unfortunately the use of Trie proved difficult when I wanted to display all the customers on the frontend.  That's why I decided to convert (i.e. _flatten_) the `Trie<Id, Customer>` to an array of `CustomerWithId`. But I am new to motoko, and there is probably a better way to do it. Leave me a comment if you know a better solution.   
