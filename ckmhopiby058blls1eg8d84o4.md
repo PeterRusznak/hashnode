@@ -225,9 +225,10 @@ ipfs.files.add(buffer, (error, result) => {
      }
 ```
 
-The `result` here will be a hash. Append this hash to the end of http://ipfs.infura.io/ipfs/ URI and we get the URI of the uploaded image:
+The `result` here will be a hash. Append this hash to the end of ` http://ipfs.infura.io/ipfs/` URI and we get the URI of the uploaded image:
+```
 https://ipfs.infura.io/ipfs/QmY8vF9PxemEytzqh6Jo5BqCWPEVd5BKH8ZaGXMjVYPSTo
-
+```
 Storing large data on blockchain is [cost-prohibitive](https://medium.com/ipdb-blog/forever-isnt-free-the-cost-of-storage-on-a-blockchain-database-59003f63e01#:~:text=Storing%20and%20sending%207KB%20of,around%20%244%2C672%2C500%20at%20today%27s%20prices.).  In fact, in order to save on gas fees, we would like to store as little data on blockchain as possible. This is where off-chain metadata comes in to play. We need a metadata file that complies with the [ metadata standards](https://docs.opensea.io/docs/metadata-standards).
 
 In our case it's a javascript object like this:
