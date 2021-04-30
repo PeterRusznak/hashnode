@@ -250,7 +250,7 @@ messages that can be sent to it. But all message sends are asynchronous.
 Consequently, unlike conventional methods in OO, actor methods do not have results.
  Moreover, all messages are received sequentially by an actor—that is, 
  it has an implicit message queue and methods execute atomically,
-  even when messages are sent concurrently 
+  even when messages are sent concurrently.
 Actors are a great model for concurrent programming because they automatically prevent race conditions (thanks to atomicity and encapsulated state) and deadlocks (because execution never blocks), and hence rule out many concurrency bugs." (Andreas Rossberg)_ 
 
 Our actor has a public function `addCustomer`. It is public,  therefore we can call it from the frontend canister. This function adds (i.e. _saves_) an entry to <s>the database</s> the underlying datastructure which is a `Trie<Id, Customer>`.
