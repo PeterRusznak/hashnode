@@ -43,7 +43,7 @@ It should be `0.6.26`
 
 ## Creating Canisters
 
-Canister is a software unit that contains both code and state. Under the hood of a canister, there is smart contract logic in the form of WebAssembly byte code. The reason canisters are called “canisters” rather than “smart contracts” is that they are in fact bundles of code and state. State is persisted naturally by the system therefore no need of databases and you just declare a datastructure as you need it. Internet Computer implements _orthogonal persistence_ —an old idea where a program has the illusion of running “forever” and its memory staying alive (at least until it is explicitly taken down). This means that developers do not have to worry about explicitly saving their data or bother with files or an external database: whatever values or data structures are stored in program variables will still be there when the next message arrives, even if that is months later. 
+Canister is a software unit that contains both code and state. Under the hood of a canister, there is smart contract logic in the form of WebAssembly byte code. The reason canisters are called “canisters” rather than “smart contracts” is that they are in fact bundles of code and state. State is persisted naturally by the system therefore no need of databases and you just declare a data structure as you need it. Internet Computer implements _orthogonal persistence_ —an old idea where a program has the illusion of running “forever” and its memory staying alive (at least until it is explicitly taken down). This means that developers do not have to worry about explicitly saving their data or bother with files or an external database: whatever values or data structures are stored in program variables will still be there when the next message arrives, even if that is months later. 
 
 Let's create a new project. Open a terminal and type:
 ```
@@ -176,7 +176,7 @@ The result should be like this in your browser:
 ## Adding Create and Read functionality
 ### Backend
 
-First, let's modify the `crud` canister in `src/crud/main.mo`. This is our backend and our _database_ (i.e. the place where we persist data in the form of datastructures like Arrays or Tries). The language here is [motoko](https://stackoverflow.blog/2020/08/24/motoko-the-language-that-turns-the-web-into-a-computer/), a semicolon-and-curly-braces language, which was tailor-made for Internet Computer. The language's creators say _Motoko has been designed to be intuitive to those familiar with Javascript and other popular languages, but offers modern features such as sound structural types, generics, variant types, and checked pattern matching._ I for one believe them on this, I _know_ javascript and motoko is _somewhat_ intuitive to me. However, this is a very new language (currently even Github mislabels it as Modelica) so it keeps evolving with each release of Dfinity Canister SDK.
+First, let's modify the `crud` canister in `src/crud/main.mo`. This is our backend and our _database_ (i.e. the place where we persist data in the form of data structures like Arrays or Tries). The language here is [motoko](https://stackoverflow.blog/2020/08/24/motoko-the-language-that-turns-the-web-into-a-computer/), a semicolon-and-curly-braces language, which was tailor-made for Internet Computer. The language's creators say _Motoko has been designed to be intuitive to those familiar with Javascript and other popular languages, but offers modern features such as sound structural types, generics, variant types, and checked pattern matching._ I for one believe them on this, I _know_ javascript and motoko is _somewhat_ intuitive to me. However, this is a very new language (currently even Github mislabels it as Modelica) so it keeps evolving with each release of Dfinity Canister SDK.
 
 Remove everything from `src/crud/main.mo` and paste the following content:
 
@@ -190,7 +190,7 @@ actor Assistant {
     public type Id = Word32;
     private stable var next : Id = 0;
 
-    // the datastructure to store the customers.
+    // the data structure to store the customers.
 	private stable var customers : Trie.Trie<Id, Customer> = Trie.empty();	   
    
    type Customer = {        
@@ -253,10 +253,10 @@ Consequently, unlike conventional methods in OO, actor methods do not have resul
   even when messages are sent concurrently.
 Actors are a great model for concurrent programming because they automatically prevent race conditions (thanks to atomicity and encapsulated state) and deadlocks (because execution never blocks), and hence rule out many concurrency bugs." (Andreas Rossberg)_ 
 
-Our actor has a public function `addCustomer`. It is public,  therefore we can call it from the frontend canister. This function adds (i.e. _saves_) an entry to <s>the database</s> the underlying datastructure which is a `Trie<Id, Customer>`.
+Our actor has a public function `addCustomer`. It is public,  therefore we can call it from the frontend canister. This function adds (i.e. _saves_) an entry to <s>the database</s> the underlying data structure which is a `Trie<Id, Customer>`.
 
-The other public function queries our <s>database</s> persisting datastructure.
-However there is one issue here; the best datastructure to store the customers and to lookup one individual customer by id is the `Trie<Id, Customer>` where the key is an `id` and the value is the `Customer`. Unfortunately the use of Trie proved difficult when I wanted to display all the customers on the frontend.  That's why I decided to convert (i.e. _flatten_) the `Trie<Id, Customer>` to an array of `CustomerWithId`. But I am new to motoko, and there is probably a better way to do it. Leave me a comment if you know a better solution.   
+The other public function queries our <s>database</s> persisting data structure.
+However there is one issue here; the best data structure to store the customers and to lookup one individual customer by id is the `Trie<Id, Customer>` where the key is an `id` and the value is the `Customer`. Unfortunately the use of Trie proved difficult when I wanted to display all the customers on the frontend.  That's why I decided to convert (i.e. _flatten_) the `Trie<Id, Customer>` to an array of `CustomerWithId`. But I am new to motoko, and there is probably a better way to do it. Leave me a comment if you know a better solution.   
 
 ### Frontend
 
