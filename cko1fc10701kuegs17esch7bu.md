@@ -12,7 +12,7 @@ But, one might object, blockchain is so slow and expensive... However Internet C
 Too good to be true? We shall see. I definitely root for them. 
 
 This tutorial's code is available on [Github](https://github.com/PeterRusznak/Internet_Computer_CRUD_example).
-Special thanks to **enzoh** whose [repository](https://github.com/enzoh/superheroes) was quite helpful when I did my baby steps on the rough terrain of [motoko](https://sdk.dfinity.org/docs/language-guide/motoko.html).  
+Special thanks to **Enzo Haussecker** whose [repository](https://github.com/enzoh/superheroes) was quite helpful when I did my baby steps on the rough terrain of [motoko](https://sdk.dfinity.org/docs/language-guide/motoko.html).  
 
 ## Software versions
 
@@ -23,8 +23,8 @@ Special thanks to **enzoh** whose [repository](https://github.com/enzoh/superher
 
 ## Installing dfx
 
-`dfx` is the command line tool to intereact with Internet Computer.
-Create a variable like below. Use the same version because anything beyond `0.7.0-beta` requires different approch!
+`dfx` is the command line tool to interact with Internet Computer.
+Create a variable like below. Use the same version because anything beyond `0.7.0-beta` requires different approach!
 ```
 export DFX_VERSION=0.6.26
 ```
@@ -176,7 +176,7 @@ The result should be like this in your browser:
 ## Adding Create and Read functionality
 ### Backend
 
-First, let's modify the `crud` canister in `src/crud/main.mo`. This is our backend and our _database_ (i.e. the place where we persist data in the form of datastructures like Arrays or Tries). The language here is [motoko](https://stackoverflow.blog/2020/08/24/motoko-the-language-that-turns-the-web-into-a-computer/), a semicolon-and-curly-braces language, wich was tailor-made for Internet Computer. The language's creators say _Motoko has been designed to be intuitive to those familiar with Javascript and other popular languages, but offers modern features such as sound structural types, generics, variant types, and checked pattern matching._ I for one believe them on this, I _know_ javascript and motoko is _somewhat_ intuitive to me. However, this is a very new language (currently even Github mislabels it as Modelica) so it keeps evolving with each release of Dfinity Canister SDK.
+First, let's modify the `crud` canister in `src/crud/main.mo`. This is our backend and our _database_ (i.e. the place where we persist data in the form of datastructures like Arrays or Tries). The language here is [motoko](https://stackoverflow.blog/2020/08/24/motoko-the-language-that-turns-the-web-into-a-computer/), a semicolon-and-curly-braces language, which was tailor-made for Internet Computer. The language's creators say _Motoko has been designed to be intuitive to those familiar with Javascript and other popular languages, but offers modern features such as sound structural types, generics, variant types, and checked pattern matching._ I for one believe them on this, I _know_ javascript and motoko is _somewhat_ intuitive to me. However, this is a very new language (currently even Github mislabels it as Modelica) so it keeps evolving with each release of Dfinity Canister SDK.
 
 Remove everything from `src/crud/main.mo` and paste the following content:
 
@@ -404,7 +404,7 @@ const Display = (props) => {
 }
 export default Display
 ```   
-The hook `useEffect` with an empty array runs only when the component is loaded. It fetches the entries from backend.The entries are displayed as a table. There are two other functions `editCustomer` and `deleteCustomer` here, which we are going to implement later.
+The hook `useEffect` with an empty array runs only when the component is loaded. It fetches the entries from backend. The entries are displayed as a table. There are two other functions `editCustomer` and `deleteCustomer` here, which we are going to implement later.
 
 To take advantage of routing, replace the old content of `App.js` with this:
 ```js
@@ -510,7 +510,7 @@ The `id` can be a positive number or `-1`.  If the `id` is `-1` we are just abou
         <div>
             <h2 className="text-center">{pageTitle}</h2>
 ``` 
-To accomodate our changes the `saveOrUpdate` function needs to be updated to this:
+To accommodate our changes the `saveOrUpdate` function needs to be updated to this:
  
 ```javascript
     const saveOrUpdate = (event) => {
