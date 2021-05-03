@@ -68,7 +68,8 @@ contract PaymentProcessor {
     }
 }```
 
-The second contract is `Dai.sol.` It is only necessary for testing. On the Ethereum Mainnet we would use the _real_  [DAI](https://www.coinbase.com/price/dai). But on our local test networks like the built-in Hardhat Network or Ganache we need to create our own. Below the full code:
+The second contract is `Dai.sol.` It is only necessary for testing. On the Ethereum Mainnet we would use the _real_  [DAI](https://www.coinbase.com/price/dai). But on our local test networks like the built-in Hardhat Network or Ganache we need to create our own. This is an [ERC20 Token](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/).
+The main difference between fungible tokens like this and cryptocurrencies is that cryptocurrencies have their own blockchain while tokens are built on top of an existing blockchain. For example, ETH is a cryptocurrency built on the Ethereum blockchain, but anyone can create their own token on Ethereum to represent a new kind of asset.  Below the full code:
 ```solidity
 pragma solidity ^0.8.0;
 
