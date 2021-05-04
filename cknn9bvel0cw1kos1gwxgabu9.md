@@ -45,6 +45,9 @@ They are the next step of the blockchain evolution. Dfinity's [Internet Computer
 They also have a very informative educational Github repo:
 https://github.com/DFINITY-Education
 
+and a cool, responsive forum:
+https://forum.dfinity.org/
+
 
 ### IPFS
 
