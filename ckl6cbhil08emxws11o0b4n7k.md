@@ -8,7 +8,7 @@ My goal is to write an easy-to-follow, step-by-step and detailed guide that demo
   
 There's quite a bit of coding and configuration ahead of us that's why I will confine myself to the essentials which will be explained  through code examples and screenshots. Let me tell you at the very beginning that we are not going to create therefore a *pretty*  application; no fancy CSS styling or Footer, Header or anything similar. (The only exception is the minimal use of [Bootstrap](https://getbootstrap.com/)) 
 
-To keep it in manageable size, I break it in two parts. Here in the first part we create the database, the backend, and fetch the content of the database and display it using a React component. In the  [second part ](https://fullstackwithpr.hashnode.dev/crud-tutorial-using-mysql-spring-boot-react-hooks-and-docker-part-2) we continue by adding additional functionality: create, update and delete and *dockerize* the backend and the frontend. 
+To keep it in manageable size, I break it in two parts. Here in the first part we create the database, the backend, and fetch the content of the database and display it using a React component. In the  [second part ](https://fullstackwithpr.hashnode.dev/crud-application-tutorial-using-mysql-spring-boot-react-hooks-and-docker-part-2) we continue by adding additional functionality: create, update and delete and *dockerize* the backend and the frontend. 
 
 The application's full code is available on  [Github](https://github.com/PeterRusznak/CRUD_Application_SpringBoot_React_Docker) 
 
