@@ -2,13 +2,13 @@
 
 ## The Big Picture
 
-In this step-by-step tutorial we are going to create a ** fullstack CRUD  Application ** using **MySQL, Spring Boot, React Hooks** and **Docker**.
+In this step-by-step tutorial we are going to create a ** fullstack CRUD  Application ** using **MySQL, Spring Boot, the modern, function-based React** and **Docker**.
 
 My goal is to write an easy-to-follow, step-by-step and detailed guide that demonstrates the use of the above mentioned technologies by creating a basic Customer Management System. 
   
 There's quite a bit of coding and configuration ahead of us that's why I will confine myself to the essentials which will be explained  through code examples and screenshots. Let me tell you at the very beginning that we are not going to create therefore a *pretty*  application; no fancy CSS styling or Footer, Header or anything similar. (The only exception is the minimal use of [Bootstrap](https://getbootstrap.com/)) 
 
-To keep it in manageable size, I break it in two parts. In the  [first part](https://fullstackwithpr.hashnode.dev/crud-tutorial-using-mysql-spring-boot-react-hooks-and-docker-part-1)  we created the database, the backend, and fetched the content of the database to display it using a React component. Here, in the second part we continue by adding additional functionality: create, update and delete and *dockerize* the backend and the frontend. 
+To keep it in manageable size, I break it in two parts. In the  [first part](https://fullstackwithpr.hashnode.dev/crud-application-tutorial-using-mysql-spring-boot-react-hooks-and-docker-part-1)  we created the database, the backend, and fetched the content of the database to display it using a React component. Here, in the second part we continue by adding additional functionality: create, update and delete and *dockerize* the backend and the frontend. 
 
 The application's full code is available on  [Github](https://github.com/PeterRusznak/CRUD_Application_SpringBoot_React_Docker) 
 
@@ -43,6 +43,7 @@ We also need to modify our frontend. The following method needs to be added to `
 ```  
 The `axios.post` here corresponds to the `@PostMapping` annotation of our Backend.  
 We also need to create a new component. Create a new file and name it `components/CreateHook.js`
+Again, it is **not** a class but a function-based `react` component. It demonstrates perfectly how to use the `useState` hooks. 
 The content should be the following:
 
 ```javascript
