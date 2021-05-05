@@ -307,7 +307,7 @@ Before we dockerize our backend, let's create the Frontend.
 We make our Frontend using ReactJS.
 Let's use `npx create-react-app frontend` to create it. Type the following:
 ```
-base) rusznak@first:~/Desktop/CRUD$ npx create-react-app frontend
+npx create-react-app frontend
 ``` 
 When finished type  `cd frontend` and `npm start`.  This launches the application on http://localhost:3000/  
 
@@ -336,7 +336,7 @@ export default new CustomerService();
 
 ```
 
-Create a new Component and name it `components/CustomerHook.js`. This will call CustomerService and display the response in a table format. Fill it with the followings:
+Create a new Component and name it `components/CustomerHook.js`. Since we are using the new **function-based React**, this component is not a class but a **function** and will serve as the home of two hooks: `useState` and `useEffect`. The purpose of this component is to call CustomerService and display the response in a table format. Fill it with the followings:
 ```
 import React, { useState, useEffect } from 'react';
 import CustomerService from '../services/CustomerService';
@@ -387,7 +387,7 @@ export default CustomerHook
 
 ```
 
-This component uses the `useEffect` Hook which will be invoked whenever  [we update the page](https://reactjs.org/docs/hooks-effect.html) 
+As I said earlier this component  contains a `useEffect` hook which will be invoked whenever [we update the page](https://reactjs.org/docs/hooks-effect.html). 
 
 Let's replace the content of `App.js` with the followings:
 ```
@@ -415,12 +415,9 @@ public class CustomerController {
 
 After this you can hit http://localhost:3000/ where you'll be greeted by the content of the Database (assuming both MySQL Docker Container and the Spring Boot backend Applications are running) as a html table inside a React component. Congrats!
 
-
-
-
 ![kesz.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1613312284160/lt9I1u7L7.png)
 
-
+[See you in the second part.](https://fullstackwithpr.hashnode.dev/crud-application-tutorial-using-mysql-spring-boot-react-hooks-and-docker-part-2)
 
 
 
