@@ -1,4 +1,4 @@
-## Conway's Game of Life on Ethereum
+## Conway's Game of Life on Ethereum based on Randomness provided by a Chainlink Oracle
 
 ## The Big Picture
 
