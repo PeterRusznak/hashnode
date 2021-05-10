@@ -9,7 +9,7 @@ including Big Tech’s cloud services, and legacy infrastructure software such a
 
 But, one might object, blockchain is so slow and expensive... However Internet Computer runs at web's speed. It also has unbounded capacity. Visitors of the page don't need to install Metamask or any other wallet. They can access the application the same way as any other website (i.e. there is no gas fee for them). And because blockchains are unique in their ability to prevent tampering and provide open verification of blocks added to the chain, Internet Computer is tamper-proof and unhackable by design. If a block is modified, its hash changes and all subsequent blocks no longer point to the correct hash, invalidating them. A nefarious person would need to go through all of the following blocks and re-calculate their hashes to modify the blockchain. But even then the changes would differ from the consensus of the majority of validating nodes, therefore they would be rejected. 
 
-As Dominic Williams summarizes: _The Internet Computer guarantees that hosted code can only be run in authorized ways, that only the expected code runs against the correct and expected data, and the math used to form the platform leaves hackers with no means to subvert those guarantees._
+As Dominic Williams summarizes: _The Internet Computer guarantees that hosted code can only be run in authorized ways, that only the expected code runs against the correct and expected data, and the math used to form the platform leaves hackers with no means to subvert those guarantees...because even the most skilled of hackers cannot make 2+2=5_
 
 All this looks too good to be true? We shall see. I definitely root for them. 
 
