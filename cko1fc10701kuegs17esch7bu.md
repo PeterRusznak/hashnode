@@ -246,7 +246,7 @@ actor Assistant {
     };
 };
 ```
-We create an `actor` to contain our logic. To me an actor resembles a class. But it is not a class rather _ " it is like an object (and in Motoko, even looks like one), 
+We create an `actor` to contain our logic. On the surface an [actor](https://en.wikipedia.org/wiki/Actor_model) can resemble a class. But it is definitely not a class rather _ " it is like an object (and in Motoko, even looks like one), 
 in that it encapsulates private state along with a set of methods to process 
 messages that can be sent to it. But all message sends are asynchronous. 
 Consequently, unlike conventional methods in OO, actor methods do not have results.
