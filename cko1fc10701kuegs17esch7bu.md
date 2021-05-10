@@ -14,7 +14,7 @@ As Dominic Williams summarizes: _The Internet Computer guarantees that hosted co
 All this looks too good to be true? We shall see. I definitely root for them. 
 
 This tutorial's code is available on [Github](https://github.com/PeterRusznak/Internet_Computer_CRUD_example).
-Special thanks to **Enzo Haussecker** whose [repository](https://github.com/enzoh/superheroes) was quite helpful when I did my baby steps on the rough terrain of [motoko](https://sdk.dfinity.org/docs/language-guide/motoko.html).  
+Special thanks to Enzo Haussecker whose [repository](https://github.com/enzoh/superheroes) was quite helpful when I did my baby steps on the rough terrain of [motoko](https://sdk.dfinity.org/docs/language-guide/motoko.html).  
 
 ## Software versions
 
