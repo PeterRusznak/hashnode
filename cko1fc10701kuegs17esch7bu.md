@@ -257,7 +257,7 @@ Actors are a great model for concurrent programming because they automatically p
 
 Our actor has a public function `addCustomer`. It is public,  therefore we can call it from the frontend canister. This function adds (i.e. _saves_) an entry to <s>the database</s> the underlying data structure which is a `Trie<Id, Customer>`.
 
-The other public function `findAll()` _queries_ our <s>database</s> persisting data structure. Note it is marked as _query_ because queries return results faster than update calls. Therefore, explicitly marking a function as a query is an effective strategy for improving application performance.
+The other public function `findAll()` _queries_ our <s>database</s> persisting data structure. Note it is marked as _query_ because queries return results faster than update calls. (But queries don’t go through consensus - that means that they are inherently less secure! But in this case it doesn't matter.) Therefore, explicitly marking a function as a query is an effective strategy for improving application performance.
 However there is one issue here; the best data structure to store the customers and to lookup one individual customer by id is the `Trie<Id, Customer>` where the key is an `id` and the value is the `Customer`. Unfortunately the use of Trie proved difficult when I wanted to display all the customers on the frontend.  That's why I decided to convert (i.e. _flatten_) the `Trie<Id, Customer>` to an array of `CustomerWithId`. But I am new to motoko, and there is probably a better way to do it. Leave me a comment if you know a better solution.   
 
 ### Frontend
