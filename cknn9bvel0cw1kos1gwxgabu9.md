@@ -55,6 +55,15 @@ The [InterPlanetary File System (IPFS)](https://ipfs.io/) is not a blockchain. I
 I also wrote [this](https://fullstackwithpr.hashnode.dev/scribble-on-canvas-and-sell-it-as-nft-react-truffle-ipfs-opensea) and [this](https://fullstackwithpr.hashnode.dev/decentralized-censorship-resistant-instagram-clone-tutorial-ethereum-hardhat-ethersjs-ipfs-react) tutorials which stored data on IPFS.
 
 
+### Cardano
+
+How could I forget about Cardano??? Well, the added benefit of learning Cardano, is to learn Haskell. By the way, it's not only a benefit, but also a prerequisite of anything. Very different, very unique way of thinking. 
+
+Start here: http://learnyouahaskell.com/starting-out 
+
+
+
+
 
 
 
