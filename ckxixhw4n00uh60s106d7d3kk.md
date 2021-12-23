@@ -1,6 +1,6 @@
 ## LDAP Authentication with Django -Part 1
 
-The sole purpose of this blog post is to consolidate my hard-earned knowledge of the LDAP- and Django configuration.
+The sole purpose of this blog post is to consolidate my hard-earned knowledge about LDAP- and Django configuration.
 
 I have been struggling recently because I have to to configure LDAP with Django. Let this post solidify what I have learned so far during this process. 
 
