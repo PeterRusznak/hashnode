@@ -126,7 +126,7 @@ The same goes for 'bind_id':
 ```
 $servers->setValue('login','bind_id','cn=admin,dc=example,dc=com');
 ``` 
-Finally, uncomment and and set 'true' the line below:
+Finally, uncomment and set 'true' the line below:
 
 ```
 $config->custom->appearance['hide_template_warning'] = true;
