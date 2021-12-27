@@ -230,7 +230,7 @@ But we have no users to log in. Let's create one.
 
 #### Creating LDAP user
 
-Let's start with creating Organizational Units. Log in to http://127.0.0.1/phpldapadmin/ and click 'Create new entry' and pick 'Generic:Posix Group'. Name it 'groups'.
+Let's start with creating Organizational Units. Log in to http://127.0.0.1/phpldapadmin/ and click 'Create new entry' and pick 'Generic:Organizational Unit'. Name it 'groups'.
 
 
 ![Create_org_unit_groups.PNG](https://cdn.hashnode.com/res/hashnode/image/upload/v1640259450756/obyrCafuv.png)
