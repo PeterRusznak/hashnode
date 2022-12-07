@@ -73,11 +73,6 @@ However it does not provide personal advice:
 
 ![merr_1.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670407765754/4k2gdnz0L.png align="left")
 
-In this case even persistence fails (second, third, etc attempt): 
-
-![mer_2.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670407886088/6fqFLx1q0.png align="left")
-
-
 Neither does it generate visual outputs:
 
 ![draw.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670408251388/bM4nu0idN.png align="left")
@@ -93,11 +88,11 @@ Trying it in Hungarian resulted strange results. On one hand it completely under
 
 ![magyarul.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670409670427/P16aSbbpY.png align="left")
 
-Mixed language for the second attempt, too:
+To summarize I am not sure to be excited or scared. Probably the latter. Not only that no kids  need to be writing homework ever again but this kind of stuff can also make a lot of people redundant, including software developers. Not to mention if the public has access to this kind of advanced technology, you can only guess what the military can already possess.. lets's pray that people are responsible and know what they are doing.
 
-![magy_2.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670409821944/XI4oNV_9F.png align="left")
+And here is what more knowledgeable people think:
 
-To summarize I am not sure to be excited or scared. Probably the latter. Not only that no kids  need to be writing homework ever again but this kind of stuff can also make a lot of people redundant, including software developers. Not to mention if the public has access to this kind of advanced technology, you can only guess what the military can already possess.. lets's pray that people are responsible and know what they are doing..
+![eleizer.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670423324407/jiX1VuE1F.png align="left")
 
 
 
