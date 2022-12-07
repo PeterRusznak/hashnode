@@ -2,8 +2,15 @@
 
 If you have anything to do with computers, you can't miss [ChatGPT](https://chat.openai.com/chat).
 
+Quite a few people find it interesting:
+
+![sama.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670434913402/gyE_u3oEN.png align="left")
+
+Among ordinary folks like me, there are also some well-known guys to voice their opinion:
+
 ![elon.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670403142093/rAUf13MJe.png align="left")
-It is scary good indeed, and way beyond my personal expectation.
+
+It is scary good indeed, and way beyond my personal expectation. 
 
 Yesterday I was under the impression it is just another chatbot, or a (very) advanced autocomplete. I threw a bunch of silly questions (questions that are complex and twisted therefore you would not ask from a computer) and the result were always meaningful and intelligent.   
 
