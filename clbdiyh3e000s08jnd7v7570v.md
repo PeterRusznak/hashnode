@@ -26,7 +26,7 @@ Brilliant explanation, outstanding logic:
 Quite informative answer to an odd question:
 ![jolly_well.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670412942268/8iswpaIUN.png align="left")
 
-But it was only the tip of the iceberg. You can literally generate poems:
+But the examples above are only the tip of the iceberg. You can literally generate poems:
 
 
 ![bitcoin.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670404507280/m_Yx06SWz.png align="left")
