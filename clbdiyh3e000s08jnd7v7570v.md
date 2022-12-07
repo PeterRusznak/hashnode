@@ -101,7 +101,7 @@ To summarize I am not sure to be excited or scared. Probably the latter. Not onl
 
 My biggest worry however is if the public has access to this kind of advanced technology, you can only guess what the military can already possess.. lets's pray that people are responsible and know what they are doing.
 
-And here is what more knowledgeable people think:
+Finally, here is what more knowledgeable people say:
 
 ![eleizer.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670423324407/jiX1VuE1F.png align="left")
 
