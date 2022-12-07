@@ -97,7 +97,7 @@ Mixed language for the second attempt, too:
 
 ![magy_2.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670409821944/XI4oNV_9F.png align="left")
 
-To summarize I am not sure to be excited or scared. Probably the latter. Not only that no kids  needs to be writing homework ever again but this kind of stuff can also make a lot of people redundant, including software developers. Not to mention if the public has access to this kind of advanced technology, you can only guess what the military can already possess.. lets's pray that people are responsible and know what they are doing..
+To summarize I am not sure to be excited or scared. Probably the latter. Not only that no kids  need to be writing homework ever again but this kind of stuff can also make a lot of people redundant, including software developers. Not to mention if the public has access to this kind of advanced technology, you can only guess what the military can already possess.. lets's pray that people are responsible and know what they are doing..
 
 
 
