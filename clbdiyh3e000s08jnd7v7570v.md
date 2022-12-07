@@ -31,14 +31,15 @@ Or short romantic stories:
 
 ![Judit_vlasz.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670405412419/G4_S_x4by.png align="left")
 
-I even managed to freak it out, by ordering a horror-story. Minor remark: *"set sail from Cirkewwa, bound for the island of Malta." *is incorrect. Cirkewwa is on the main maltese island (Malta). Departing from Cirkewwa and heading to Malta makes no sense in real life.
-
+I even managed to freak it out, by ordering a horror-story:
 ![freak_out.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670414914609/J4arblGM2.png align="left")
 
+Minor remark: *"set sail from Cirkewwa, bound for the island of Malta." *is incorrect. Cirkewwa is on the main Maltese island (Malta). Departing from Cirkewwa and heading to Malta makes no sense in real life.
 
 
-It can very well give you pros and cons if you need to make decisions:
 
+
+Apart from generating stories it can also give you pros and cons if you need to make decisions:
 
 ![BJJ_pro.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670405956214/68jPhAY4i.png align="left")
 
