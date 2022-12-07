@@ -16,14 +16,14 @@ Yesterday I was under the impression it is just another chatbot, or a (very) adv
 
 %[https://www.youtube.com/watch?v=ocEbu-uPONM&t=18s]
 
-Brilliant explanation, outstanding logic:
+Convincing, one can only agree with it:
 
 ![joly_well_2.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670412997943/QrTYqwIrt.png align="left")
 
-
+Brilliant explanation, outstanding logic:
 ![jolly_well_1.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670412985144/u8BDBNH_J.png align="left")
 
-
+Quite informative answer to an odd question:
 ![jolly_well.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670412942268/8iswpaIUN.png align="left")
 
 But it was only the tip of the iceberg. You can literally generate poems:
