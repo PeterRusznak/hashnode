@@ -88,11 +88,13 @@ Trying it in Hungarian resulted strange results. On one hand it completely under
 
 ![magyarul.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670409670427/P16aSbbpY.png align="left")
 
-To summarize I am not sure to be excited or scared. Probably the latter. Not only that no kids  need to be writing homework ever again but this kind of stuff can also make a lot of people redundant, including software developers. Not to mention if the public has access to this kind of advanced technology, you can only guess what the military can already possess.. lets's pray that people are responsible and know what they are doing.
+To summarize I am not sure to be excited or scared. Probably the latter. Not only that no kids  need to be writing homework ever again but this kind of stuff can also make a lot of people redundant, including software developers(not tomorrow, but sooner one might imagine). Not to mention if the public has access to this kind of advanced technology, you can only guess what the military can already possess.. lets's pray that people are responsible and know what they are doing.
 
 And here is what more knowledgeable people think:
 
 ![eleizer.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670423324407/jiX1VuE1F.png align="left")
+
+Well, I don't really like the last sentence, even if it is only meant to be a joke. 
 
 
 
