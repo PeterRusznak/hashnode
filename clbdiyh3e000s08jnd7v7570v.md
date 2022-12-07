@@ -91,7 +91,7 @@ This is bit disappointing and relieving at the same time:
 It is also available in German:
 ![German.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670409432642/dK5dzCNb0.png align="left")
 
-Trying it in Hungarian resulted strange results. On one hand it completely understood my question and generated a completely intelligent answer. However this answer was not in Hungarian, but in German. First attempt:
+Trying it in Hungarian resulted strange results. On one hand it completely understood my question and generated a completely intelligent answer. However this answer was not in Hungarian, but in German:
 
 ![magyarul.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670409670427/P16aSbbpY.png align="left")
 
