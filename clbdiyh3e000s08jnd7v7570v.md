@@ -88,7 +88,9 @@ Trying it in Hungarian resulted strange results. On one hand it completely under
 
 ![magyarul.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670409670427/P16aSbbpY.png align="left")
 
-To summarize I am not sure to be excited or scared. Probably the latter. Not only that no kids  need to be writing homework ever again but this kind of stuff can also make a lot of people redundant, including software developers(not tomorrow, but sooner one might imagine). Not to mention if the public has access to this kind of advanced technology, you can only guess what the military can already possess.. lets's pray that people are responsible and know what they are doing.
+To summarize I am not sure to be excited or scared. Probably the latter. Not only that no kids  need to be writing homework ever again but this kind of stuff can also make a lot of people redundant, including software developers. Obviously having the ability to generate the code examples above is not (yet) enough to substitute a software engineer as this role requires a lot of background information - but it is definitely a good starting point. Marketing people have also a lot to lose. 
+
+My biggest worry however is if the public has access to this kind of advanced technology, you can only guess what the military can already possess.. lets's pray that people are responsible and know what they are doing.
 
 And here is what more knowledgeable people think:
 
