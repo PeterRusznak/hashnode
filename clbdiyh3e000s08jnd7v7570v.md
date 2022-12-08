@@ -102,7 +102,7 @@ By the way languages and translation. It can even make google translate obsolete
 
 ![ford_2.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670502207478/d_QqqARS5.png align="left")
 
-
+### Summary
 
 To summarize I am not sure to be excited or scared. Probably the latter. Not only that no kids  need to be writing homework ever again but this kind of stuff can also make a lot of people redundant, including software developers. Obviously having the ability to generate the code examples above is not (yet) enough to substitute a software engineer as this role requires a lot of background information - but it is definitely a good starting point. Marketing people have also a lot to lose. Something similar happened already to translators:
 
