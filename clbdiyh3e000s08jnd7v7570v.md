@@ -12,6 +12,8 @@ Among ordinary folks like me, there are also some well-known guys to voice their
 
 It is scary good indeed, and way beyond my personal expectation. 
 
+### Asking not-so-trivial questions
+
 Yesterday I was under the impression it is just another chatbot, or a (very) advanced autocomplete. I threw a bunch of silly questions (questions that are complex and twisted therefore you would not ask from a computer) and the result were always meaningful and intelligent.   
 
 %[https://www.youtube.com/watch?v=ocEbu-uPONM&t=18s]
@@ -30,7 +32,11 @@ Logic is there, only the last step is missing:
 ![passport.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670503320049/_jxhz2RsO.png align="left")
 
 Anyone, who ever had the displeasure of talking to the poorly trained chatbots common on commercial sites can easily attest that the examples above are fundamentally better at mimicking an intelligent conversation.  
-But this is only the tip of the iceberg. You can literally generate poems:
+But this is only the tip of the iceberg. 
+
+### Generating poetry and stories
+
+You can literally generate poems:
   
 
 ![bitcoin.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670404507280/m_Yx06SWz.png align="left")
@@ -47,8 +53,7 @@ I even managed to freak it out, by ordering a horror story:
 
 ![santa.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670492394154/m1uPdLU5P.png align="left")
 
-
-
+### A decision-making device
 
 Apart from generating stories it can also give you pros and cons if you need to make decisions:
 
@@ -56,11 +61,11 @@ Apart from generating stories it can also give you pros and cons if you need to 
 
 I only added **'not'** to discourage me practicing bjj:
 
-
 ![bjj_con.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670406141863/z9vEYsEJE.png align="left")
 
-It can even generate code:
+### Generating code
 
+It can even generate code:
 
 ![fibo.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670406524124/hZZFVItCZ.png align="left")
 
@@ -68,8 +73,6 @@ It can even generate code:
 ![fibo_1.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670406566987/9qposq62K.png align="left")
 
 I can be more precise with the requirements and limitations. Here I prefer recursion:
-
-
 
 ![rec.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670406870813/Lw_agZoJ8.png align="left")
 
@@ -79,6 +82,22 @@ Of course, python is not the only language:
 The code is not commented in this case  but it nevertheless comes with explanation:
 
 ![no_com.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670407204583/JfJRIwT1b.png align="left")
+
+### Availibility in other languages and translations
+
+It is also available in German:
+![German.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670409432642/dK5dzCNb0.png align="left")
+
+Trying it in Hungarian resulted strange results. On one hand it completely understood my question and generated a completely intelligent answer. However this answer was not in Hungarian, but in German:
+
+![magyarul.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670409670427/P16aSbbpY.png align="left")
+
+By the way languages and translation. It can even make google translate obsolete. As a native Hungarian speaker I can attest that below translations are perfect:
+![ford_1.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670502197544/5u5ui76lF.png align="left")
+
+![ford_2.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670502207478/d_QqqARS5.png align="left")
+
+### Limitations
 
 However it does not provide personal advice:
 
@@ -91,19 +110,6 @@ Neither does it generate visual outputs:
 This is bit disappointing and relieving at the same time:
 
 ![big_num.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670409210093/zi1FIkCEJ.png align="left")
-
-It is also available in German:
-![German.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670409432642/dK5dzCNb0.png align="left")
-
-Trying it in Hungarian resulted strange results. On one hand it completely understood my question and generated a completely intelligent answer. However this answer was not in Hungarian, but in German:
-
-![magyarul.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670409670427/P16aSbbpY.png align="left")
-
-By the way languages and translation. It can even make google translate obsolete. As a native Hungarian speaker I can attest that below translations are perfect:
-![ford_1.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670502197544/5u5ui76lF.png align="left")
-
-
-![ford_2.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670502207478/d_QqqARS5.png align="left")
 
 ### Summary
 
