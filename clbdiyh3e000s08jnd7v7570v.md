@@ -41,7 +41,8 @@ Or short romantic stories:
 
 I even managed to freak it out, by ordering a horror story:
 
-![santa.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670492098990/qV9OB_GDJ.png align="left")
+
+![santa.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670492394154/m1uPdLU5P.png align="left")
 
 
 
