@@ -26,6 +26,9 @@ Brilliant explanation, outstanding logic:
 Quite informative answer to an odd question:
 ![jolly_well.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670412942268/8iswpaIUN.png align="left")
 
+Logic is there, only the last step is missing:
+![passport.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670503320049/_jxhz2RsO.png align="left")
+
 Anyone, who ever had the displeasure of talking to the poorly trained chatbots common on commercial sites can easily attest that the examples above are fundamentally better at mimicking an intelligent conversation.  
 But this is only the tip of the iceberg. You can literally generate poems:
   
