@@ -31,6 +31,9 @@ Quite informative answer to an odd question:
 Logic is there, only the last step is missing:
 ![passport.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670503320049/_jxhz2RsO.png align="left")
 
+And it looks quite resistant to spreading misinformation:
+![italy.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670570822236/Zu2qK5zjl.png align="left")
+
 Anyone, who ever had the displeasure of talking to the poorly trained chatbots common on commercial sites can easily attest that the examples above are fundamentally better at mimicking an intelligent conversation.  
 But this is only the tip of the iceberg. 
 
