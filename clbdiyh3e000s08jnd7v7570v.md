@@ -112,8 +112,12 @@ This is bit disappointing and relieving at the same time:
 ![big_num.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670409210093/zi1FIkCEJ.png align="left")
 
 ### Summary
+To summarize I am not sure to be more excited or scared. Probably the latter. On the plus side, pair programming with this can be very convenient. I guess it can very much substitute stackoverflow.
 
-To summarize I am not sure to be excited or scared. Probably the latter. Not only that no kids  need to be writing homework ever again but this kind of stuff can also make a lot of people redundant, including software developers. Obviously having the ability to generate the code examples above is not (yet) enough to substitute a software engineer as this role requires a lot of background information - but it is definitely a good starting point. Marketing people have also a lot to lose. Something similar happened already to translators:
+But everyone knows the phenomenon, that if you express some interest about anything online, relevant ads will haunt you for weeks if not months. In the future an advanced form of this AI will generate a text, a tailor-made, personalized story for you about the object, service you searched for. Then another AI will read this story and generate a film based on it. You'll be bombarded with AI-generated, very realistic clips, if not entire films featuring you using/enjoying the thing you searched for. 
+
+But unfortunately there are even more possible negative side-effects.
+Not only that no kids  need to be writing homework ever again but this kind of stuff can also make a lot of people redundant, including software developers. Obviously having the ability to generate the code examples above is not (yet) enough to substitute a software engineer as this role requires a lot of background information - but it is definitely a good starting point. Marketing people have also a lot to lose. Something similar happened already to translators:
 
 ![tranlate.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670437449283/tToECYDiX.png align="left")
 
