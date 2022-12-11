@@ -132,6 +132,9 @@ Finally, here is what more knowledgeable people say:
 
 Well, I don't really like the last sentence, even if it is only meant to be a joke. 
 
+Let's finish with this:
+![serious.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670752541338/Nvb3Q-Pyg.png align="left")
+
 
 
 
