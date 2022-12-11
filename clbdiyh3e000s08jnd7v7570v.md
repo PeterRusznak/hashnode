@@ -120,7 +120,7 @@ To summarize I am not sure to be more excited or scared. Probably the latter. On
 But everyone knows the phenomenon, that if you express some interest about anything online, relevant ads will haunt you for weeks if not months. In the future an advanced form of this AI will generate a text, a tailor-made, personalized story for you about the object, service you searched for. Then another AI will read this story and generate a film based on it. You'll be bombarded with AI-generated, very realistic clips, if not entire films featuring you using/enjoying the thing you searched for. 
 
 But unfortunately there are even more possible negative side-effects.
-Not only that no kids  need to be writing homework ever again but this kind of stuff can also make a lot of people redundant, including software developers. Obviously having the ability to generate the code examples above is not (yet) enough to substitute a software engineer as this role requires a lot of background information - but it is definitely a good starting point. Marketing people have also a lot to lose. Something similar happened already to translators:
+Not only that no kids  need to be writing homework ever again but this kind of stuff can also make a lot of people redundant, including software developers. Obviously having the ability to generate the code examples above is [not (yet) enough to substitute a software engineer](https://www.theblock.co/post/192514/ethereum-vitalik-buterin-says-chatgpt-far-from-replacing-humans) as this role requires a lot of background information - but it is definitely a good starting point. Marketing people have also a lot to lose. Something similar happened already to translators:
 
 ![tranlate.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670437449283/tToECYDiX.png align="left")
 
@@ -141,3 +141,4 @@ Let's finish with this:
 
 
 
+[Text](Link)
