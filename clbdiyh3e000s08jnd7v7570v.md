@@ -1,6 +1,6 @@
 # OpenAI's ChatGPT is beyond amazing.. but it is also quite scary.
 
-Last week, OpenAI, a leading research institute focused on artificial intelligence technology, announced that it was opening public access to its latest product - an AI Chatbot. [ChatGPT](https://chat.openai.com/chat) is a large language model based on the popular GPT-3 model, an AI tool that allows users to engage with it in a conversation-style dialogue and answers any queries posed by users. 
+Last week, OpenAI, a leading research institute focused on artificial intelligence technology,  opened public access to its latest product - an AI Chatbot. [ChatGPT](https://chat.openai.com/chat) is a large language model based on the popular GPT-3 model, an AI tool that allows users to engage with it in a conversation-style dialogue and answers a large variety of questions asked by its users. 
 
 Quite a few people find it interesting:
 
@@ -135,10 +135,3 @@ Well, I don't really like the last sentence, even if it is only meant to be a jo
 Let's finish with this:
 ![serious.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670752541338/Nvb3Q-Pyg.png align="left")
 
-
-
-
-
-
-
-[Text](Link)
