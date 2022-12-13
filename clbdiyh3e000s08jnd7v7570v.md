@@ -66,9 +66,9 @@ I only added **'not'** to discourage me practicing bjj:
 
 ![bjj_con.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670406141863/z9vEYsEJE.png align="left")
 
-### Revealing the gist
+### Summarizing the gist
 
-This is maybe the most impressive feature. I copied a large, hardly readable text from Wikipedia about [Asset Backed Securities](https://en.wikipedia.org/wiki/Asset-backed_security) (the actual content is irrelevant, but believe me it is a **long, dry and ugly text full of technical terms** that ordinary people don't understand) and I wanted to see the summary in less than 20 words:
+This is maybe the most impressive feature. I copied a large, hardly readable text from Wikipedia about [Asset Backed Securities](https://en.wikipedia.org/wiki/Asset-backed_security) (the actual content is irrelevant, but believe me it is a **long, dry and ugly text full of technical terms** that ordinary people don't understand) and I wanted to see only the gist in less than 20 words:
 
 ![gist.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670934758750/YPta9UCFL.png align="left")
 
