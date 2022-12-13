@@ -66,6 +66,13 @@ I only added **'not'** to discourage me practicing bjj:
 
 ![bjj_con.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670406141863/z9vEYsEJE.png align="left")
 
+### Revealing the gist
+
+Maybe the most impressive feature. I copypasted a large, hardly readable text from wikipedia about Asset Backed Securities and I wanted to see the summary in less than 20 words:
+
+
+![gist.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670934026475/Y0D9eyPJX.png align="left")
+
 ### Generating code
 
 It can even generate code:
