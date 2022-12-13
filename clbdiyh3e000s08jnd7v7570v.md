@@ -68,10 +68,9 @@ I only added **'not'** to discourage me practicing bjj:
 
 ### Revealing the gist
 
-Maybe the most impressive feature. I copypasted a large, hardly readable text from wikipedia about Asset Backed Securities and I wanted to see the summary in less than 20 words:
+This is maybe the most impressive feature. I copied a large, hardly readable text from Wikipedia about [Asset Backed Securities](https://en.wikipedia.org/wiki/Asset-backed_security) (the actual content is irrelevant, but believe me it is a **long, dry and ugly text full of technical terms** that ordinary people don't understand) and I wanted to see the summary in less than 20 words:
 
-
-![gist.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670934026475/Y0D9eyPJX.png align="left")
+![gist.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670934758750/YPta9UCFL.png align="left")
 
 ### Generating code
 
