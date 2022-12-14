@@ -111,7 +111,9 @@ By the way languages and translation. It can even make google translate obsolete
 
 ### Limitations
 
-However, it does not provide personal advice:
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1671041021940/0AwWbmmku.png align="center")
+
+This way it is understandable why it does not provide personal advice:
 
 ![merr_1.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670407765754/4k2gdnz0L.png align="left")
 
