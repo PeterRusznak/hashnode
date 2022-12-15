@@ -109,7 +109,9 @@ By the way languages and translation. It can even make google translate obsolete
 
 ![ford_2.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670502207478/d_QqqARS5.png align="left")
 
-### Limitations
+### Limitations  
+
+That's what OpenAi's CEO says about its limitations and reliability:
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1671041021940/0AwWbmmku.png align="center")
 
