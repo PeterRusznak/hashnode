@@ -1,4 +1,4 @@
-# OpenAI's ChatGPT is beyond amazing.. but it is also quite scary.
+# Scary good, indeed
 
 Last week, OpenAI, a leading research institute focused on artificial intelligence technology, opened public access to its latest product - an AI Chatbot. [ChatGPT](https://chat.openai.com/chat) stands for Chat-Based Generative Pretrained Transformer. It is a large language model based on the popular GPT-3 model, a powerful natural language processing tool. It allows users to engage with it in a conversation-style dialogue and answers a large variety of questions asked by its users.
 
