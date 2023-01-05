@@ -20,19 +20,19 @@ Let's see some examples:
 
 ![Convincing, one can only agree with it.](https://cdn.hashnode.com/res/hashnode/image/upload/v1670412997943/QrTYqwIrt.png align="left")
 
-Convincing, one can only agree with it.  
+Convincing, one can only agree with it.
 
 ![jolly_well_1.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670412985144/u8BDBNH_J.png align="left")
 
-Brilliant explanation, outstanding logic.  
+Brilliant explanation, outstanding logic.
 
 ![jolly_well.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670412942268/8iswpaIUN.png align="left")
 
-Quite an informative answer to an odd question.  
+Quite an informative answer to an odd question.
 
 ![passport.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670503320049/_jxhz2RsO.png align="left")
 
-Logic is there, only the last step is missing.  
+Logic is there, only the last step is missing.
 
 ![italy.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670570822236/Zu2qK5zjl.png align="left")
 
@@ -137,7 +137,11 @@ But unfortunately, there are even more possible negative side effects. Not only 
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1672908028980/1314f8bc-697f-482e-9a13-addce652c19a.png align="center")
 
-but this kind of stuff can also make a lot of people redundant, including software developers. Obviously having the ability to generate the code examples above is [not (yet) enough to substitute a software engineer](https://www.theblock.co/post/192514/ethereum-vitalik-buterin-says-chatgpt-far-from-replacing-humans) as this role requires a lot of background information - but it is definitely a good starting point. Marketing people have also a lot to lose. Something similar happened already to translators:
+but this kind of stuff can also make a lot of people redundant, including software developers. Obviously having the ability to generate the code examples above is
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1672919392175/dd692553-7439-45d1-b7fc-7620f01954f8.png align="center")
+
+[not (yet) enough to substitute a software engineer](https://www.theblock.co/post/192514/ethereum-vitalik-buterin-says-chatgpt-far-from-replacing-humans) as this role requires a lot of background information - but it is definitely a good starting point. Marketing people have also a lot to lose. Something similar happened already to translators:
 
 ![tranlate.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670437449283/tToECYDiX.png align="left")
 
