@@ -2,7 +2,7 @@
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1672920528142/4dd85766-3263-473a-ae66-69ef56df6ab8.png align="center")
 
-"All roads lead to Rome" Really? Well, if you're not careful enough, the AI ​​will ensure that literally all roads lead to Rome... Even those, that lead in the opposite direction.
+"All roads lead to Rome" Really? Well, if you're not careful enough, the AI ​​will ensure that literally all roads lead to Rome... Even those, that lead to the opposite direction.
 
 Well, I think I deserve a holiday. I would like to travel to Rome. I also love the idea of travelling by train. But there is a problem. There is an awful long [tunnel system](https://en.wikipedia.org/wiki/Bologna%E2%80%93Florence_high-speed_railway) between Bologna and Firenze. I hate tunnels, I would like to avoid them if possible.  
 Let's see what ChatGPT has to offer:
