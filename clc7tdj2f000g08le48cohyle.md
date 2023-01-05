@@ -1,8 +1,10 @@
 # All roads lead to Rome...
 
-"All roads lead to Rome" Really? Well, if you're not careful enough, the AI ​​will ensure that literally all roads lead to Rome... Even those, that lead in the opposite direction.  
-  
-Well, I think I deserve a holiday. I would like to travel to Rome. I also love the idea of traveling by train. But there is a problem. There is an awful long [tunnel system](https://en.wikipedia.org/wiki/Bologna%E2%80%93Florence_high-speed_railway) between Bologna and Firenze. I hate tunnels, I would like to avoid them if possible.  
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1672920528142/4dd85766-3263-473a-ae66-69ef56df6ab8.png align="center")
+
+"All roads lead to Rome" Really? Well, if you're not careful enough, the AI ​​will ensure that literally all roads lead to Rome... Even those, that lead in the opposite direction.
+
+Well, I think I deserve a holiday. I would like to travel to Rome. I also love the idea of travelling by train. But there is a problem. There is an awful long [tunnel system](https://en.wikipedia.org/wiki/Bologna%E2%80%93Florence_high-speed_railway) between Bologna and Firenze. I hate tunnels, I would like to avoid them if possible.  
 Let's see what ChatGPT has to offer:
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1672235808077/58f6ac1c-e13f-49ec-b668-89c208709245.png align="center")
@@ -49,7 +51,7 @@ I think, we already discussed Verona. I a getting close to giving up. But I deci
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1672239197208/19009381-0220-457d-ad5f-f9157cda8fb2.png align="center")
 
-We are getting better. But I've become a little distrustful:  
+We are getting better. But I've become a little distrustful:
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1672239455610/0aa80b7f-cbbf-414a-bcbd-039541773f0e.png align="center")
 
