@@ -115,7 +115,11 @@ That's what OpenAi's CEO says about its limitations and reliability:
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1671041021940/0AwWbmmku.png align="center")
 
-This way it is understandable why it does not provide personal advice:
+Same with other words:
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1672920359085/063758e9-6fe1-4b14-87db-5fdfd225129f.png align="center")
+
+This way it is understandable why it does not provide personal advice:-)
 
 ![merr_1.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670407765754/4k2gdnz0L.png align="left")
 
