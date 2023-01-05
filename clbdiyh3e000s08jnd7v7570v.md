@@ -141,7 +141,10 @@ but this kind of stuff can also make a lot of people redundant, including softwa
 
 ![tranlate.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670437449283/tToECYDiX.png align="left")
 
-My biggest worry however is if the public has access to this kind of advanced technology, you can only guess what the military can already possess... Let's pray that people are responsible and know what they are doing.
+My biggest worry however is if the public has access to this kind of advanced technology, you can only guess what some militaries can already possess...  
+I for one would be extremely surprised if the world's top militaries didn't already have models far superior to ChatGPT.
+
+Let's pray that people are responsible and know what they are doing.
 
 Finally, here is what more knowledgeable people say:
 
