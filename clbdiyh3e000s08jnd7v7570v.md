@@ -14,29 +14,29 @@ It is scary good indeed, and way beyond my personal expectation.
 
 ### Asking not-so-trivial questions
 
-Yesterday I was under the impression it is just another chatbot, or a (very) advanced autocomplete. I threw a bunch of silly questions (questions that are complex and twisted therefore you would not ask from a computer) and the results were always meaningful and intelligent.
+Yesterday I was under the impression it is just another chatbot, or a (very) advanced autocomplete. I threw a bunch of silly questions (questions that are complex and twisted therefore you would not ask from a computer) and the results were always meaningful and intelligent even though ChatGPT does not *understand* the question the same way as a person would do.
 
-%[https://www.youtube.com/watch?v=ocEbu-uPONM&t=18s] 
+Let's see some examples:
 
-Convincing, one can only agree with it:
+![Convincing, one can only agree with it.](https://cdn.hashnode.com/res/hashnode/image/upload/v1670412997943/QrTYqwIrt.png align="left")
 
-![joly_well_2.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670412997943/QrTYqwIrt.png align="left")
-
-Brilliant explanation, outstanding logic:
+Convincing, one can only agree with it.  
 
 ![jolly_well_1.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670412985144/u8BDBNH_J.png align="left")
 
-Quite informative answer to an odd question:
+Brilliant explanation, outstanding logic.  
 
 ![jolly_well.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670412942268/8iswpaIUN.png align="left")
 
-Logic is there, only the last step is missing:
+Quite an informative answer to an odd question.  
 
 ![passport.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670503320049/_jxhz2RsO.png align="left")
 
-And it looks quite resistant to spreading misinformation:
+Logic is there, only the last step is missing.  
 
 ![italy.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1670570822236/Zu2qK5zjl.png align="left")
+
+And it looks quite resistant to spreading misinformation.
 
 Anyone, who had the displeasure of talking to the poorly trained chatbots common on commercial sites can easily attest that the examples above are fundamentally better at mimicking an intelligent conversation.  
 But this is only the tip of the iceberg.
