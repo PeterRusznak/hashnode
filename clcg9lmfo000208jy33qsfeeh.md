@@ -253,15 +253,19 @@ To use flexbox, you need to set the display property of the parent element to fl
 
 ### **Database**
 
-I am not a database expert, I never designed large databases, I just queried them with basic stuff like 'SELECT' or 'LEFT JOIN' as full-stack developers normally do. The depth, required by my daily need is very much covered.  
-  
+I am not a database expert, I never designed large databases, I just queried them with basic stuff like 'SELECT' or 'LEFT JOIN' as full-stack developers normally do. The depth, required by my daily need is very much covered.
+
 **Prompt:** Explain "Left inner join" with an example.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1672745684365/2d695af7-8e2b-4322-89c4-e368abebf54b.png align="center")
 
-And it does not stop there, it goes on with a lengthy explanation that I don't include. But you got the idea. It does not only write the query but also explains it.  
-Let's see what guidance I can get if I want to design a large database.  
+And it does not stop there, it goes on with a lengthy explanation that I don't include. But you got the idea. It does not only write the query but also explains it.
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1673338030155/b5f30286-583d-4771-ab72-50e833b87bae.png align="center")
+
   
+Let's see what guidance I can get if I want to design a large database.
+
 **Prompt**: I am tasked to design a large database, which principles should I follow?
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1672749800698/341553a5-b1f6-41e1-97f0-ee7bb0e098b2.png align="center")
@@ -269,7 +273,7 @@ Let's see what guidance I can get if I want to design a large database.
 ### Miscellaneous
 
 It knows how I should set up the debugger whether in VSCode or Eclipse, and also knows how to build an ssh tunnel on ubuntu, and why would I want to do it in the first place.  
-It can itself debug, at least small functions:
+It can debug, at least small functions:
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1672750639873/545389b9-192a-4053-b0de-83a465a2b29c.png align="center")
 
