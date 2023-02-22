@@ -263,7 +263,6 @@ And it does not stop there, it goes on with a lengthy explanation that I don't i
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1673338030155/b5f30286-583d-4771-ab72-50e833b87bae.png align="center")
 
-  
 Let's see what guidance I can get if I want to design a large database.
 
 **Prompt**: I am tasked to design a large database, which principles should I follow?
@@ -282,3 +281,8 @@ To introduce a bug I changed `if(low < high){` to `if(low <= high){`
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1672750829504/6cd8293d-9cbb-49bf-b906-d9a013b7dd3c.png align="center")
 
 Can it debug large, enterprise applications? No, it can't. Luckily. Because the day when it can, will be the day also when the vast majority of developers lose their jobs...
+
+### Shortcomings
+
+I could not get it to write any reasonable motoko code. It is probably because motoko is a pretty new language and was not that frequent in the training data. I tried it hard, but the code never compiled. I also got some Frankenstein-like monster code, where it wrote an 'actor' but the code inside the actor was solidity.  
+I am however pretty sure, that as motoko gets more and more popular, the situation will greatly improve.
